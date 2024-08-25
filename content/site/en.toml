@@ -1,0 +1,45 @@
+title = "Feeds Fun Blog"
+subtitle = "News, changelogs and documentation"
+author = "Aliaksei Yaletski (Tiendil)"
+
+[[menu]]
+  type = "external"
+  name = "Feeds Fun"
+  url = "https://feeds.fun"
+
+[[menu]]
+  type = "blog"
+  name = "Blog"
+
+[[menu]]
+  type = "feed"
+  name = "RSS"
+
+[[menu]]
+  type = "external"
+  name = "Discord"
+  url = "https://discord.gg/C5RVusHQXy"
+
+[[menu]]
+  type = "external"
+  name = "Reddit"
+  url = "https://www.reddit.com/r/feedsfun/"
+
+[[menu]]
+  type = "external"
+  name = "GitHub"
+  url = "https://github.com/Tiendil/feeds.fun"
+
+[license]
+url = "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+name = "CC BY-NC-ND 4.0"
+
+[tags_translations]
+news = "news"
+documentation = "documentation"
+tutorial = "tutorial"
+
+[theme_translations]
+tags_filter_header = 'Found texts:'
+last_posts_header = 'Last texts'
+article_similar_header = 'Read next'

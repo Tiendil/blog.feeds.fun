@@ -1,0 +1,21 @@
+prod_url = "https://blog.feeds.fun"
+local_url = "http://0.0.0.0:8000"
+default_language = 'en'
+allowed_languages = ['en']
+posts_per_page = 5
+posts_in_feed = 10
+favicon = 'images/favicon.ico'
+content_repository = "https://github.com/Tiendil/blog.feeds.fun"
+
+posts_in_similar = 10
+
+[similarity]
+common_tag_score = 100
+referenced_from_score = 100
+referenced_to_score = 50
+bonus_per_reference = 5
+ignore_similar_tags = []
+
+[similarity.bonus_for_tags]
+interesting = 75
+best = 75
