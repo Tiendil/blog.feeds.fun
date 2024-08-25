@@ -3,22 +3,27 @@ subtitle = "News, changelogs and documentation"
 author = "Aliaksei Yaletski (Tiendil)"
 
 [[menu]]
-type = "external"
-name = "Feeds Fun"
-url = "https://feeds.fun"
+  type = "external"
+  name = "Feeds Fun"
+  url = "https://feeds.fun"
 
 [[menu]]
-type = "blog"
-name = "Blog"
+  type = "blog"
+  name = "Blog"
 
 [[menu]]
-type = "feed"
-name = "RSS"
+  type = "feed"
+  name = "RSS"
 
 [[menu]]
-type = "external"
-name = "GitHub"
-url = "https://github.com/Tiendil/feeds.fun"
+  type = "external"
+  name = "Discord"
+  url = "https://discord.gg/C5RVusHQXy"
+
+[[menu]]
+  type = "external"
+  name = "GitHub"
+  url = "https://github.com/Tiendil/feeds.fun"
 
 [license]
 url = "http://creativecommons.org/licenses/by-nc-nd/4.0/"
