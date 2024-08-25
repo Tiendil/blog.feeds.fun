@@ -1,5 +1,5 @@
 
-# The content of the Feeds Fun blog
+# The content of the Feeds Fun [blog](https://blog.feeds.fun)
 
 [feeds.fun](https://feeds.fun) — news reader with tags. Self-hosted, if it is your way.
 

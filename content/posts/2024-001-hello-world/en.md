@@ -26,3 +26,5 @@ Feeds Fun helps me to save 4-8 hours per week, and I hope it will help you, too.
 In this blog, I'll post documentation, news about significant project updates, best practices for using it, and other related topics.
 
 So, subscribe to the RSS if you want to follow the news.
+
+Also, feel free to join [Discord](https://discord.gg/C5RVusHQXy) and [Reddit](https://www.reddit.com/r/feedsfun/).
