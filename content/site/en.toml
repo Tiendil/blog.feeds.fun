@@ -13,21 +13,29 @@ author = "Aliaksei Yaletski (Tiendil)"
 
 [[menu]]
   type = "feed"
-  name = "RSS"
+  css_classes = "ti ti-rss"
+  name = ""
+  tooltip = "News Feed"
 
 [[menu]]
   type = "external"
-  name = "Discord"
+  css_classes = "ti ti-brand-discord"
+  name = ""
+  tooltip = "Discord server"
   url = "https://discord.gg/C5RVusHQXy"
 
 [[menu]]
   type = "external"
-  name = "Reddit"
+  css_classes = "ti ti-brand-reddit"
+  name = ""
+  tooltip = "Reddit community"
   url = "https://www.reddit.com/r/feedsfun/"
 
 [[menu]]
   type = "external"
-  name = "GitHub"
+  css_classes = "ti ti-brand-github"
+  name = ""
+  tooltip = "GitHub repository"
   url = "https://github.com/Tiendil/feeds.fun"
 
 [license]
