@@ -1,35 +1,41 @@
 ---
-title = "Version 1.12 released! New feeds collections, Gemini support, and more"
+title = "Version 1.12 released!"
 tags = ["news"]
 published_at = "2024-10-12T20:00:00+00:00"
 seo_description = "Version 1.12 of Feeds Fun is out! New feeds collections functionality, Gemini support, and more."
 seo_image = ""
 ---
 
-I'm happy to announce the release of version 1.12 of Feeds Fun!
+I'm exited to announce the release of **Feeds Fun version 1.12**!
 
-This release brings a lot of cool features and improvements.
+This update brings a lot of cool features and improvements.
 
-**Because of a significant changes, all user settings are removed, including API keys**. You may want to review them.
+**Important:** Due to significant changes, all user settings have been reset, including API keys. Please check and update your settings.
 
-First of all, interface and logic of collections of feeds are fully refactored. Using collections should be more convenient now:
+## What's New
 
-- Your can subscribe for individual feeds from a collection or two a full collection.
-- Feeds from collections will be marked in your feeds list.
-- Each feed in collection accompanied by a detailed description.
-- Of course, all **feeds in collections are tagged for free for all users**.
+### Improved collections interface and logic
 
-Old collections of feeds (gamedev, artificial intelligence) was removed, because their content was not good enough for our new collections standart. That is said, now we will form collections with more care and effort.
+- You can now subscribe to individual feeds from a collection or the entire collection.
+- Feeds from collections are marked in your feed list for easy recognition.
+- Each feed in a collection comes with a detailed description.
+- Best of all, **all feeds in collections are tagged for free for all users!**
 
-**And the first news collection is all scientific papers from arXiv!** So, now you can be always up to date with the latest scientific researches.
+I've removed the old collections (gamedev, artificial intelligence) because they didn't meet the new quality standards. From now on, I'll be putting more care into creating collections.
 
-Secondly, but not less important, we added support for the [Gemini API](https://ai.google.dev/) (Google's alternative to OpenAI ChatGPT). Now you can use for tagging not only OpenAI, but also Gemini. It is especially interesting because Gemini has a free tier for a limited number of requests => you can test full power of Feeds Fun without any additional costs.
+**The first new collecton contains all scientific papers from arXiv!** From now, you can always stay up to date with the latest scientific research!
 
-You can set your OpenAI/Gemini API key in the settings section of the Feeds Fun website.
+### Gemini API Support
 
-If your self-hosting Feeds Fun, see additional notes in [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/changes/2024-10-12T09-11-16_1.12.0.md).
+I've added support for the [Gemini API](https://ai.google.dev/), Google's alternative to OpenAI's ChatGPT. Now you can use Gemini for tagging in addition to ChatGPT. This is especially exciting because Gemini offers a free tier with a limited number of requests, so you can test all the features of Feeds Fun without any extra cost.
 
-As a remined:
+You can set your OpenAI or Gemini API key in the settings section of the Feeds Fun website.
+
+If you're self-hosting Feeds Fun, please see the additional notes in the [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/changes/2024-10-12T09-11-16_1.12.0.md).
+
+Thank you for your support! I hope you enjoy the new features as much as I enjoyed creating them.
+
+## Stay Connected
 
 - Our site: [feeds.fun](https://feeds.fun/)
 - Our repository: [github.com/Tiendil/feeds.fun](https://github.com/Tiendil/feeds.fun)
