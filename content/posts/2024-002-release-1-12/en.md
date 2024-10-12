@@ -28,3 +28,8 @@ Secondly, but not less important, we added support for the [Gemini API](https://
 You can set your OpenAI/Gemini API key in the settings section of the Feeds Fun website.
 
 If your self-hosting Feeds Fun, see additional notes in [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/changes/2024-10-12T09-11-16_1.12.0.md).
+
+As a remined:
+
+- Our site: [feeds.fun](https://feeds.fun/)
+- Our repository: [github.com/Tiendil/feeds.fun](https://github.com/Tiendil/feeds.fun)
