@@ -6,11 +6,11 @@ seo_description = "Version 1.12 of Feeds Fun is out! New feeds collections funct
 seo_image = ""
 ---
 
-I'm exited to announce the release of **Feeds Fun version 1.12**!
+I'm excited to announce the release of **Feeds Fun version 1.12**!
 
 This update brings a lot of cool features and improvements.
 
-**Important:** Due to significant changes, all user settings have been reset, including API keys. Please check and update your settings.
+**Important:** Due to significant changes, all user settings, including API keys, have been reset. Please check and update your settings.
 
 ## What's New
 
@@ -21,9 +21,9 @@ This update brings a lot of cool features and improvements.
 - Each feed in a collection comes with a detailed description.
 - Best of all, **all feeds in collections are tagged for free for all users!**
 
-The old collections (gamedev, artificial intelligence) have been removed because they didn't meet the new quality standards. Moving forward, more care will be put into creating collections.
+The old collections (gamedev, artificial intelligence) have been removed because they didn't meet the new quality standards. From now more care will be put into creating collections.
 
-**The first new collecton contains all scientific papers from arXiv!** Now, you can always stay up to date with the latest scientific research!
+**The first new collection contains all scientific papers from arXiv!** Now, you can always stay up to date with the latest scientific research!
 
 ### Gemini support
 
@@ -35,9 +35,9 @@ If you're self-hosting Feeds Fun, please see the additional notes in the [CHANGE
 
 ### Reduced number of duplicated news entries
 
-Sometimes user can see the same news item multiple times in the list of resent news. That is because the same news item can appear in different feeds from the same website. For example, that can happen for Reddit and arXiv feeds.
+Sometimes, users can see the same news item multiple times in the list of recent news. That is because the same news item can appear in different feeds from the same website. For example, that can happen for Reddit and arXiv feeds.
 
-Now Feeds Fun will do better job to detect and remove such duplicates.
+Now Feeds Fun will do a better job of detecting and removing such duplicates.
 
 Thank you for your support! I hope you enjoy the new features!
 
