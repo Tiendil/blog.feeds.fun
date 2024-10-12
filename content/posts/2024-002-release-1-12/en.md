@@ -1,6 +1,6 @@
 ---
 title = "Version 1.12 released!"
-tags = ["news", "releases"]
+tags = ["news", "releases", "collections", "gemini"]
 published_at = "2024-10-12T20:00:00+00:00"
 seo_description = "Version 1.12 of Feeds Fun is out! New feeds collections functionality, Gemini support, and more."
 seo_image = ""
