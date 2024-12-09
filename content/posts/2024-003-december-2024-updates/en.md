@@ -1,5 +1,5 @@
 ---
-title = "Short Summary of the Last Two Months of Feeds Fun"
+title = "Short summary of the last two months of Feeds Fun"
 tags = ["news", "performance"]
 published_at = "2024-10-12T20:00:00+00:00"
 seo_description = "Short summary of the last two month updates of Feeds Fun: performance improvements."
