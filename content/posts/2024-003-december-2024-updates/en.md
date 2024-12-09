@@ -6,22 +6,22 @@ seo_description = "Short summary of the last two month updates of Feeds Fun: per
 seo_image = ""
 ---
 
-I don't want to bother you with a post per release (there were 15 of them since the last post), instead I'll periodically post summaries of the most significant updates. Hope, it is more convinient for everyone. If you are interested in every release, you can always subscribe to the [repository](https://github.com/Tiendil/feeds.fun) or check the [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md).
+I don't want to bother you with a post for every release (there have been 15 since the last post). Instead, I'll periodically post summaries of the most significant updates. I hope this approach is more convenient for everyone. If you're interested in every release, you can always subscribe to the [repository](https://github.com/Tiendil/feeds.fun) or check the [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md).
 
-The actual version of Feeds Fun is 1.14.2.
+The current version of Feeds Fun is **1.14.2**.
 
-There are few significant improvements in the last two months:
+Here are the most significant improvements from the last two months:
 
-1. Time to load the latest news is reduced 4 times!
-2. LLM prompts are improved to produce less tags of better quality.
-3. Fixed a situation when, after removing a feed on the Feeds page, the feeds list was not updated.
+1. The time to load the latest news has been reduced by 4 times!
+2. LLM prompts have been improved to produce fewer tags of better quality.
+3. Fixed an issue where, after removing a feed on the Feeds page, the feeds list was not updated.
 4. Added tracking of some user activity events.
 
-I want to add a few words about tracking events.
+### A Few Words About Tracking Events
 
-Events are required to better understand how users interact with the reader, how they use it, where they have difficulties, and so on. It is especially important for Feeds Fun, because a lot of its functionality are experimental and it is too easy to choose wrong direction of work, for example, to implementing interface that no one require or choose wrong feature to improve. Tracking such events will help to faster deliver right features.
+Event tracking is essential to better understand how users interact with the reader, how they use it, where they face difficulties, and more. This is particularly important for Feeds Fun because much of its functionality is experimental, and it's easy to head in the wrong direction — such as implementing an interface no one needs or prioritizing the wrong feature for improvement. Tracking these events will help deliver the right features more quickly.
 
-All new events are for internal use only:
+All new events are strictly for internal use:
 
-- no one of them leave Feeds Fun server;
-- no one of them directly attached to email or other personal info.
+- None of the events leave the Feeds Fun server.
+- None of the events are directly tied to email addresses or other personal information.
