@@ -6,13 +6,15 @@ seo_description = "Short summary of the last two month updates of Feeds Fun: per
 seo_image = ""
 ---
 
+It's been a productive two months for Feeds Fun!
+
 I don't want to bother you with a post for every release (there have been 15 since the last post). Instead, I'll periodically post summaries of the most significant updates. I hope this approach is more convenient for everyone. If you're interested in every release, you can always subscribe to the [repository](https://github.com/Tiendil/feeds.fun) or check the [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md).
 
 The current version of Feeds Fun is **1.14.2**.
 
 Here are the most significant improvements from the last two months:
 
-1. The time to load the latest news has been reduced by 4 times!
+1. The time to load the latest news has been reduced by a factor of 4!
 2. LLM prompts have been improved to produce fewer tags of better quality.
 3. Fixed an issue where, after removing a feed on the Feeds page, the feeds list was not updated.
 4. Added tracking of some user activity events.
