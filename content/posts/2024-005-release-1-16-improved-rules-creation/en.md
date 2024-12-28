@@ -2,7 +2,7 @@
 title = "Version 1.16 released — improved rules creation, added a new collection"
 tags = ["news", "releases", "collections", "rules"]
 published_at = "2024-12-28T20:00:00+00:00"
-seo_description = ""
+seo_description = "Feeds Fun 1.16 brings a new rules creation interface, a new collection, and a few other improvements."
 seo_image = "cover.png"
 ---
 
@@ -50,3 +50,4 @@ The new Reddit interface have no links to the news feeds. So, I added custome pr
 
 - Our site: [feeds.fun](https://feeds.fun/)
 - Our repository: [github.com/Tiendil/feeds.fun](https://github.com/Tiendil/feeds.fun)
+- Full changelog: [CHANGELOG.md](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md)
