@@ -1,5 +1,5 @@
 ---
-title = "Version 1.16 Released — meet enhanced rules creation and new collection"
+title = "Version 1.16 Released — meet enhanced rules creation interface and new collection"
 tags = ["news", "releases", "collections", "rules"]
 published_at = "2024-12-28T20:00:00+00:00"
 seo_description = "Feeds Fun 1.16 introduces a revamped rules creation interface, a new collection, and several other improvements."
