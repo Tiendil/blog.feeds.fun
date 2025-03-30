@@ -2,7 +2,7 @@
 title = "Version 1.18 Released — collections going public"
 tags = ["news", "releases", "collections"]
 published_at = "2025-03-30T12:00:00+00:00"
-seo_description = "Feeds Fun 1.18 introduces public collections."
+seo_description = "Feeds Fun 1.18 introduces public curated collections."
 seo_image = ""
 ---
 
@@ -15,7 +15,7 @@ Check them out here:
 - [Scientific Papers](https://feeds.fun/show/scientific-papers) for latest research papers.
 - [Entrepreneurship & Startups](https://feeds.fun/show/entrepreneurship) for the latest business insights.
 
-Tag filters are now reflected in the URL, allowing you to easily share specific subsets of news, such as [new machine learning papers](https://feeds.fun/show/scientific-papers/machine-learning) or [networking news](https://feeds.fun/show/entrepreneurship/networking).
+Tag filters are now reflected in the URL, allowing you to easily share specific subsets of news, such as [new machine learning papers](https://feeds.fun/show/scientific-papers/machine-learning) or [professional networking news](https://feeds.fun/show/entrepreneurship/networking).
 
 Besides this, we made some other improvements:
 
