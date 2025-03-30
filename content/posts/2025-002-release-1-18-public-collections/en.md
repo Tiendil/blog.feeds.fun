@@ -8,7 +8,7 @@ seo_image = ""
 
 **Feeds Fun 1.18** is live!
 
-Our curated news collections are now public — everyone can explore and share the latest fully tagged news with friends, no registration required.
+Curated news collections are now public — everyone can explore and share the latest fully tagged news with friends, no registration required.
 
 Check them out here:
 
