@@ -8,7 +8,7 @@ seo_image = ""
 
 Hey!
 
-We glad to announce that **official Docker images** for Feeds Fun are now available!
+We are glad to announce that **official Docker images** for Feeds Fun are now available!
 
 Check examples of how to run Feeds Fun with Docker:
 
@@ -30,9 +30,9 @@ docker compose up -d
 
 After services are up, you can access the web interface at [http://localhost/](http://localhost/)
 
-Each example has an extensive README file, all config files are well commented.
+Each example has an extensive README file; all config files are well commented.
 
-But, just in case, if you have any questions, feel free to post an issue to GitHub or even to make a pull request with your changes.
+But just in case, if you have any questions, feel free to post an issue on GitHub or make a pull request with your changes. We'll be grateful for feedback.
 
 ## Stay Connected
 
