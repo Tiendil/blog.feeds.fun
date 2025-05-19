@@ -30,7 +30,7 @@ docker compose up -d
 
 After services are up, you can access the web interface at [http://localhost/](http://localhost/)
 
-Each example has an extensive README file; all config files are well commented.
+Each example has a detailed README file; all config files are commented.
 
 But just in case, if you have any questions, feel free to post an issue on GitHub or make a pull request with your changes. We'll be grateful for feedback.
 
