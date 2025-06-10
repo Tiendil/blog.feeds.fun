@@ -1,7 +1,7 @@
 ---
 title = "Feeds Fun roadmap"
 tags = ["news", "documentation"]
-published_at = "2025-05-19T12:00:00+00:00"
+published_at = "2025-06-10T12:00:00+00:00"
 seo_description = "Check our long-term plans for Feeds Fun."
 seo_image = ""
 ---
@@ -26,3 +26,12 @@ All tasks are organized into four groups:
 **We'll support PRs for any task from any group** — it will be a priority for us to review and merge them.
 
 **We are open to discussion and suggestions** — the roadmap is not set in stone, we can change it according to community feedback and needs.
+
+## Stay Connected
+
+- Site: [feeds.fun](https://feeds.fun/)
+- Reddit: [r/feedsfun](https://www.reddit.com/r/feedsfun/)
+- Discord: [Feeds Fun](https://discord.com/invite/C5RVusHQXy)
+- Repository: [github.com/Tiendil/feeds.fun](https://github.com/Tiendil/feeds.fun)
+- Roadmap: [Roadmap](https://github.com/users/Tiendil/projects/1/views/1?pane=info)
+- Full changelog: [CHANGELOG.md](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md)
