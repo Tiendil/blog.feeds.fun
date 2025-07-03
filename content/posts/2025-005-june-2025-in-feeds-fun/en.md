@@ -30,7 +30,7 @@ As a result, we should start better processing news from small, niche, and/or no
 
 **What improved for our self-hosted users**:
 
-- We upgraded our auth dependency — `Supertokens` to `11.0.4` version (from `9.0.2`). If you use a multi-user setup, you should migrate your `Supertokens` instance manually. See [Supertokens CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md) for instructions.
+- We upgraded our auth dependency — `Supertokens` to `11.0.4` version (from `9.0.2`). If you use a multi-user setup, you should migrate your `Supertokens` instance manually. See [Supertokens CHANGELOG](https://github.com/supertokens/supertokens-python/blob/master/CHANGELOG.md) for instructions.
 - Backend upgraded to `Python 3.13`. All backend dependencies are upgraded to the latest versions.
 - Improved stability of feed loading — more network errors are handled and processed correctly and silently.
 - `ffun` CLI command now works correctly in the official Docker images.
