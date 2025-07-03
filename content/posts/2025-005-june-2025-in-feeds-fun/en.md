@@ -6,8 +6,6 @@ seo_description = "Check out what happened in Feeds Fun in June 2025."
 seo_image = ""
 ---
 
-Hello, friends!
-
 This is the first monthly recap of Feeds Fun. We hope it will become a regular occurrence, allowing you to stay up-to-date with the project.
 
 Summary:
@@ -20,7 +18,7 @@ Summary:
 
 ## Updates
 
-What improved for the users of [feeds.fun](https://feeds.fun):
+**What improved for the users of [feeds.fun](https://feeds.fun)**:
 
 - Better validation of the values in the user settings view.
 - Feeds Fun now better understands and correctly processes news with broken Unicode characters.
@@ -28,7 +26,7 @@ What improved for the users of [feeds.fun](https://feeds.fun):
 
 As a result, we should start better processing news from small, niche, and/or non-English sites.
 
-What improved for our self-hosted users:
+**What improved for our self-hosted users**:
 
 - We upgraded our auth dependency — `Supertokens` to `11.0.4` version (from `9.0.2`). If you use a multi-user setup, you should migrate your `Supertokens` instance manually. See [Supertokens CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md) for instructions.
 - Backend upgraded to `Python 3.13`. All backend dependencies are upgraded to the latest versions.
@@ -39,7 +37,7 @@ What improved for our self-hosted users:
 - Improved performance of saving tags into the database. This fix should reduce spikes of DB connections usage and improve overall performance of the backend.
 - Added support for ZSTD compression for feed loading.
 
-This is short recap, the full detailed list of changes you may find in our [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md).
+This is a short recap, the full detailed list of changes you may find in our [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md).
 
 ## Roadmap
 
