@@ -10,7 +10,7 @@ This is the first monthly recap of Feeds Fun. We hope it will become a regular o
 
 Summary:
 
-- We released 7 new versions of Feeds Fun: one major and six minor ones. Numerous stability improvements and bug fixes were introduced.
+- We made 7 releases. Numerous stability improvements and bug fixes were introduced.
 - Feeds Fun should start better processing news from small, niche, and/or non-English sites.
 - Self-hosted users should upgrade their `Supertokens` instance to `11.0.4` version.
 - The [Roadmap](https://github.com/users/Tiendil/projects/1/views/1?pane=info) has been published, and we have already received your feedback. Thanks for that!
