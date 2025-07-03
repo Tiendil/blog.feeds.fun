@@ -55,13 +55,13 @@ lxml = ["lxml"]
 
 [[package]]
 name = "brigid"
-version = "0.12.1"
+version = "0.12.3"
 description = "Static site generator."
 optional = false
 python-versions = "<4.0,>=3.12"
 files = [
-    {file = "brigid-0.12.1-py3-none-any.whl", hash = "sha256:ecc89da996fe8b002ee43b88f5f05cb43f38c7271450022dd5c5ed4eb5444b9e"},
-    {file = "brigid-0.12.1.tar.gz", hash = "sha256:9ef6ecf1b5a1ac7164efcf5c7f1f775289447e6a769940d1c766e93d5e54efc0"},
+    {file = "brigid-0.12.3-py3-none-any.whl", hash = "sha256:9d91480b5a1d0f6ef5a7686edfd9d8614c64224d62aee3a14ef47ea1a49c8b80"},
+    {file = "brigid-0.12.3.tar.gz", hash = "sha256:14159178e3538d887d30ead1170ebebbe80c590b4a4017f3bca70d928b027ec9"},
 ]
 
 [package.dependencies]
@@ -1137,4 +1137,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "6fceaed8efac9898ab5f509080fc2b7cb5b25aac592c156154a97d7337990fff"
+content-hash = "2752fd4eb5caab6d9b43744e8cc7e7abb418c525cf958dde2ac337daad65ae6d"
