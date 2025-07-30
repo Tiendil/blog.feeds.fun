@@ -23,3 +23,12 @@ By default, the threshold is set to 2 (at least two news items with the tag shou
 In future updates, we plan to make filter settings persistent, so they save between sessions and devices.
 
 **Please, tell us what you think about this feature!** We are eager to hear your feedback and suggestions on how to improve it further.
+
+## Stay Connected
+
+- Site: [feeds.fun](https://feeds.fun/)
+- Reddit: [r/feedsfun](https://www.reddit.com/r/feedsfun/)
+- Discord: [Feeds Fun](https://discord.com/invite/C5RVusHQXy)
+- Repository: [github.com/Tiendil/feeds.fun](https://github.com/Tiendil/feeds.fun)
+- Roadmap: [Roadmap](https://github.com/users/Tiendil/projects/1/views/1?pane=info)
+- Full changelog: [CHANGELOG.md](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md)
