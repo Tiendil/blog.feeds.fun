@@ -1,20 +1,19 @@
 ---
-title = "June 2025 in Feeds Fun"
+title = "July 2025 in Feeds Fun"
 tags = ["monthly-recap", "news"]
-published_at = "2025-07-03T12:00:00+00:00"
-seo_description = "Check out what happened in Feeds Fun in June 2025."
+published_at = "2025-08-03T12:00:00+00:00"
+seo_description = "Check out what happened in Feeds Fun in July 2025."
 seo_image = ""
 ---
 
-This is the first monthly recap of Feeds Fun. We hope it will become a regular occurrence, allowing you to stay up-to-date with the project.
+Hey everyone! This is the monthly recap of Feeds Fun.
 
 Summary:
 
-- We made 7 releases. Numerous stability improvements and bug fixes were introduced.
-- Feeds Fun should start better processing news from small, niche, and/or non-English sites.
-- Self-hosted users should upgrade their `Supertokens` instance to `11.0.4` version.
-- The [Roadmap](https://github.com/users/Tiendil/projects/1/views/1?pane=info) has been published, and we have already received your feedback. Thanks for that!
-- 1.3M news entries were loaded, 43 new users registered.
+- We made 5 releases. Numerous stability improvements and bug fixes were introduced.
+- Greatly reduced the number of tags loaded & displayed in the UI.
+- Improved parsing of OPML files produced by other RSS readers.
+- 2.3M news entries were loaded, 100 new users registered.
 
 <!-- more -->
 
@@ -22,37 +21,20 @@ Summary:
 
 **What improved for the users of [feeds.fun](https://feeds.fun)**:
 
-- Better validation of the values in the user settings view.
-- Feeds Fun now better understands and correctly processes news with broken Unicode characters.
-- Feeds Fun now smartly processes broken markup in feeds and attempts to extract as many valid entries as possible.
-
-As a result, we should start better processing news from small, niche, and/or non-English sites.
+- We introduced the [show tags]{post:take-control-of-the-number-of-tags-you-see} news filter option. It reduces the number of tags loaded from the server by excluding rare ones. By our measurements, it allows us to reduce the number of loaded tags up to 75% and the traffic up to 1.5 times!
+- Feeds Fun now better parses OPML files produced by other RSS readers, which allows you to import your feeds from other readers more easily.
 
 **What improved for our self-hosted users**:
 
-- We upgraded our auth dependency — `Supertokens` to `11.0.4` version (from `9.0.2`). If you use a multi-user setup, you should migrate your `Supertokens` instance manually. See [Supertokens CHANGELOG](https://github.com/supertokens/supertokens-python/blob/master/CHANGELOG.md) for instructions.
-- Backend upgraded to `Python 3.13`. All backend dependencies are upgraded to the latest versions.
-- Improved stability of feed loading — more network errors are handled and processed correctly and silently.
-- `ffun` CLI command now works correctly in the official Docker images.
-- `ffun cleaner` now does a better job of cleaning orphaned entries and feeds.
-- LLM tag processors now trim too big entries (according to `max_tokens_per_entry` model property) to avoid overspending tokens.
-- Improved performance of saving tags into the database. This fix should reduce spikes of DB connections usage and improve overall performance of the backend.
-- Added support for ZSTD compression for feed loading.
+- Improved processing of some Gemini API errors related to content policy violations.
 
 This is a short recap, the full detailed list of changes you may find in our [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md).
 
 ## Roadmap
 
-A few weeks ago, we published our [long-term development plans](https://github.com/users/Tiendil/projects/1/views/1?pane=info).
+Do not forget about our [long-term development plans](https://github.com/users/Tiendil/projects/1/views/1?pane=info).
 
-We would like to thank everyone who has already checked it out and provided feedback.
-
-Based on your input, we added new tasks:
-
-- [Automatic translation of news to the user's language](https://github.com/Tiendil/feeds.fun/issues/391), thanks to [imalyi](https://github.com/imalyi).
-- [Smart suggestion of new rules based on likes/dislikes](https://github.com/Tiendil/feeds.fun/issues/390), thanks to [nezartarbin](https://github.com/nezartarbin).
-- [Summarization of news entry by the user request](https://github.com/Tiendil/feeds.fun/issues/380), thanks to [nickyfoto](https://github.com/nickyfoto)
-- [Use content as a news item text if the content attribute exists in the RSS/ATOM feed](https://github.com/Tiendil/feeds.fun/issues/382), thanks to [nickyfoto](https://github.com/nickyfoto)
+Currently we are working on [improving quality of the generated tags](https://github.com/Tiendil/feeds.fun/issues/56).
 
 Our plans are dynamic, and we are always open to suggestions and improvements. React to the tasks you like:
 
@@ -62,10 +44,10 @@ Our plans are dynamic, and we are always open to suggestions and improvements. R
 
 ## Fun stats for June
 
-- `1.3M` news entries were loaded.
-- `43` new users registered.
-- `4` users set their OpenAI/Gemini API keys to use LLM tag processors — thank you for your support!
-- `~24 minutes` spent reading news in a day by an average active user.
+- `2.3M` news entries were loaded.
+- `100` new users registered.
+- `9` users set their OpenAI/Gemini API keys to use LLM tag processors — thank you for your support!
+- `~9.5 minutes` spent reading news in a day by an average active user.
 
 ## Stay Connected
 
