@@ -28,13 +28,13 @@ Summary:
 
 - Improved processing of some Gemini API errors related to content policy violations.
 
-This is a short recap, the full detailed list of changes you may find in our [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md).
+This is a short recap; the complete detailed list of changes you may find in our [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md).
 
 ## Roadmap
 
 Do not forget about our [long-term development plans](https://github.com/users/Tiendil/projects/1/views/1?pane=info).
 
-Currently we are working on [improving quality of the generated tags](https://github.com/Tiendil/feeds.fun/issues/56).
+Currently, we are working on [improving the quality of the generated tags](https://github.com/Tiendil/feeds.fun/issues/56).
 
 Our plans are dynamic, and we are always open to suggestions and improvements. React to the tasks you like:
 
