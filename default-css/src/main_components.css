@@ -5,7 +5,8 @@
         @apply hidden lg:block;
 
         .brigid-side-block-caption {
-            @apply ml-6 text-lg my-0;
+            /* @apply ml-6 text-lg my-0; */
+            @apply bg-slate-200 mt-2 mb-4 text-center md:py-5 border border-x-0 border-slate-400 text-2xl md:text-3xl font-medium;
         }
 
         .brigid-tags-filter {
@@ -50,25 +51,38 @@
 
     #brigid-body {
 
-        @apply container mx-auto max-w-5xl font-sans p-4;
+        @apply container mx-auto max-w-5xl font-sans p-4 pt-0 bg-white;
+
+        hr {
+            @apply border-slate-400 my-2;
+        }
 
         header {
 
-            @apply text-center max-w-2xl ;
+            @apply text-center mx-auto;
 
             .brigid-blog-title {
-                @apply text-3xl block;
+                @apply block leading-tight my-5;
+
+                a {
+                    @apply no-underline font-bold text-black text-5xl;
+                }
+
+                p {
+                    @apply mt-2 text-2xl;
+                }
             }
 
             nav {
-                @apply border-t border-b border-t-2 border-b-2 uppercase mt-2 mb-8;
+                @apply pt-4 mb-8;
 
                 a {
-                    @apply inline-block px-2 py-2;
+                    @apply cursor-pointer no-underline text-xl text-black px-2 py-2 whitespace-nowrap;
+                    @apply underline-offset-4 hover:bg-blue-100 rounded;
                 }
 
                 .brigid-active-menu-item {
-                    @apply underline underline-offset-4;
+                    @apply underline underline-offset-4 text-xl text-black px-2 py-2;
                 }
             }
         }

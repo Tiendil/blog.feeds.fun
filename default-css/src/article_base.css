@@ -6,8 +6,9 @@
         @apply prose-a:font-normal;
 
         @apply max-w-none max-w-2xl grow;
-        @apply border-b-4 border-double;
-        @apply mb-8 pb-4 last-of-type:mb-0;
+
+        /* feeds.fun */
+        @apply mb-2 pb-4 last-of-type:mb-0;
 
         strong a {
             @apply font-semibold;

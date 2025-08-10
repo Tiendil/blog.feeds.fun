@@ -8,10 +8,6 @@ author = "Aliaksei Yaletski (Tiendil)"
   url = "https://feeds.fun"
 
 [[menu]]
-  type = "blog"
-  name = "Blog"
-
-[[menu]]
   type = "feed"
   css_classes = "ti ti-rss"
   name = ""
@@ -57,6 +53,6 @@ docker = "docker"
 monthly-recap = "monthly recap"
 
 [theme_translations]
-tags_filter_header = 'Found texts:'
+tags_filter_header = 'Texts:'
 last_posts_header = 'Last texts'
 article_similar_header = 'Read next'
