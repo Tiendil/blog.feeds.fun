@@ -1314,10 +1314,8 @@ video {
   }
 }
 
-.brigid-side-block {
-  .brigid-side-block-caption {
-    /* @apply ml-6 text-lg my-0; */
-  }
+.brigid-side-block{
+  max-width: 20rem;
   .brigid-side-block-caption{
     margin-top: 0.5rem;
   }
@@ -1377,6 +1375,11 @@ video {
   .brigid-tags-filter{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+  }
+  .brigid-side-block-post-link{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   ul{
     margin-top: 0.5rem;
@@ -2021,7 +2024,7 @@ video {
       }
     }
     nav{
-      margin-bottom: 2rem;
+      margin-bottom: 0.5rem;
     }
     nav{
       padding-top: 1rem;
@@ -2038,8 +2041,8 @@ video {
         padding-right: 0.5rem;
       }
       a{
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
       }
       a{
         font-size: 1.25rem;
@@ -3725,6 +3728,10 @@ video {
 
 .block{
   display: block;
+}
+
+.pt-2{
+  padding-top: 0.5rem;
 }
 
 .filter{

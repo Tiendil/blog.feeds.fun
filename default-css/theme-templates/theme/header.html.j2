@@ -15,14 +15,16 @@
         </a>
       {% endfor %}
 
+      <hr/>
+
     </nav>
 
     <div class="brigid-blog-title">
       <a href="{{root_url(language).url()}}">{{site.languages[language].title}}</a>
       {{languages_links(language, none)}}
+      <p>{{site.languages[language].subtitle}}</p>
     </div>
 
-    <div>{{site.languages[language].subtitle}}</div>
 
   </header>
 
