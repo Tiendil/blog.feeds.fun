@@ -1349,8 +1349,8 @@ video {
   }
   @media (min-width: 768px){
     .brigid-side-block-caption{
-      padding-top: 1.25rem;
-      padding-bottom: 1.25rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
     }
   }
   @media (min-width: 768px){
@@ -2771,7 +2771,7 @@ video {
     background-color: rgb(226 232 240 / var(--tw-bg-opacity));
   }
   h1{
-    padding: 0.75rem;
+    padding: 0.5rem;
   }
   h1{
     text-align: center;
@@ -2785,8 +2785,8 @@ video {
   }
   @media (min-width: 768px){
     h1{
-      padding-top: 1.25rem;
-      padding-bottom: 1.25rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
     }
   }
   @media (min-width: 768px){
