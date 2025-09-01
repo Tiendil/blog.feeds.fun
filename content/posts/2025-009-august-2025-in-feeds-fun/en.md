@@ -11,9 +11,8 @@ Hey everyone! This is the monthly recap of Feeds Fun.
 Summary:
 
 - We made 3 releases. Numerous stability improvements and bug fixes were introduced.
-- Greatly reduced the number of tags loaded & displayed in the UI.
-- Improved parsing of OPML files produced by other RSS readers.
-- 2.3M news entries were loaded, 100 new users registered.
+- States of all filters now persist between sessions and devices. No more need to reapply your favorite filters every time you read news!
+- 2.3M news entries were loaded, 43 new users registered.
 
 <!-- more -->
 
@@ -21,18 +20,20 @@ Summary:
 
 **What improved for the users of [feeds.fun](https://feeds.fun)**:
 
-- We introduced the [show tags]{post:take-control-of-the-number-of-tags-you-see} news filter option. It reduces the number of tags loaded from the server by excluding rare ones. By our measurements, it allows us to reduce the number of loaded tags up to 75% and the traffic up to 1.5 times!
-- Feeds Fun now better parses OPML files produced by other RSS readers, which allows you to import your feeds from other readers more easily.
+- States of all filters now persist between sessions and devices. No more need to reapply your favorite filters every time you read news!
+- The red dot indicator "tags filter is active" is now correctly displayed on top of the "show sidebar" button when the sidebar is closed and there are tags in the tag filter.
 
 **What improved for our self-hosted users**:
 
-- Improved processing of some Gemini API errors related to content policy violations.
+- Added support for HTTP/2 connections when fetching feeds.
 
 This is a short recap; the complete detailed list of changes you may find in our [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md).
 
 ## Roadmap
 
 Do not forget about our [long-term development plans](https://github.com/users/Tiendil/projects/1/views/1?pane=info).
+
+New feature added to plans: [add subscriber amount to the User-Agent header for the loader bot](https://github.com/Tiendil/feeds.fun/issues/408).
 
 Currently, we are working on [improving the quality of the generated tags](https://github.com/Tiendil/feeds.fun/issues/56).
 
