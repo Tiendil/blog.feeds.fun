@@ -11,7 +11,7 @@ Hey everyone! This is the monthly recap of Feeds Fun.
 Summary:
 
 - We made 3 releases. Numerous stability improvements and bug fixes were introduced.
-- States of all filters now persist between sessions and devices. No more need to reapply your favorite filters every time you read news!
+- States of all interface filters now persist between sessions and devices. No more need to reapply your favorite filters every time you read the news!
 - 2.3M news entries were loaded, 43 new users registered.
 
 <!-- more -->
@@ -20,7 +20,7 @@ Summary:
 
 **What improved for the users of [feeds.fun](https://feeds.fun)**:
 
-- States of all filters now persist between sessions and devices. No more need to reapply your favorite filters every time you read news!
+- States of all interface filters now persist between sessions and devices. No more need to reapply your favorite filters every time you read the news!
 - The red dot indicator "tags filter is active" is now correctly displayed on top of the "show sidebar" button when the sidebar is closed and there are tags in the tag filter.
 
 **What improved for our self-hosted users**:
@@ -33,7 +33,7 @@ This is a short recap; the complete detailed list of changes you may find in our
 
 Do not forget about our [long-term development plans](https://github.com/users/Tiendil/projects/1/views/1?pane=info).
 
-New feature added to plans: [add subscriber amount to the User-Agent header for the loader bot](https://github.com/Tiendil/feeds.fun/issues/408).
+New feature added to the roadmap: [add subscriber amount to the User-Agent header for the loader bot](https://github.com/Tiendil/feeds.fun/issues/408).
 
 Currently, we are working on [improving the quality of the generated tags](https://github.com/Tiendil/feeds.fun/issues/56).
 
