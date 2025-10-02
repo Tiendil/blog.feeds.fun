@@ -11,7 +11,7 @@ Hey everyone! This is the monthly recap of Feeds Fun.
 Summary:
 
 - We made 3 releases. Numerous stability improvements and bug fixes were introduced.
-- Work on tags normalization finally give some visible results, you should see much less tag duplicates now. Tag variations like `book-reviews`, `books-review`, `books-reviews`, `book-review` now automatically normalize to a one form `book-review`.
+- Work on tags normalization, finally give some visible results, you should see much fewer tag duplicates now. Tag variations like `book-reviews`, `books-review`, `books-reviews`, `book-review` now automatically normalize to a one form `book-review`.
 - 2.5M news entries were loaded, 37 new users registered.
 
 <!-- more -->
@@ -20,21 +20,21 @@ Summary:
 
 **What improved for the users of [feeds.fun](https://feeds.fun)**:
 
-- Tag variations like `book-reviews`, `book-review` (and so on) now automatically normalize to a one suitable form. This should reduce the total number of tags you see in the GUI and improve effect of rules, because they begin apply to more news now.
+- Tag variations like `book-reviews`, `book-review` (and so on) now automatically normalize to a one suitable form. This should reduce the total number of tags you see in the GUI and improve the effect of rules, because they begin to apply to more news now.
 
-ATTENTION: You may need to update your existing rules to use normalized tag forms, because old rules, for now, may still use non-normalized tag forms. Or you can just wait — we'll migrate your old rules to normalized tag forms this month.
+ATTENTION: You may need to update your existing rules to use normalized tag forms, as some old rules may still use non-normalized forms. Or you can just wait — we'll migrate your old rules to normalized tag forms this month.
 
 **What improved for our self-hosted users**:
 
-- With tag normalization introduced, you may want to read [new section in README](https://github.com/Tiendil/feeds.fun/tree/main?tab=readme-ov-file#configure-tag-normalizers) and to check the default [normalization configs](https://github.com/Tiendil/feeds.fun/blob/a2e96ecf21ad3e283b0d8f82deea8dd5806caeee/ffun/ffun/tags/fixtures/tag_normalizers.toml) — some normalizers may eat significant amount of RAM and CPU time.
+- With tag normalization introduced, you may want to read [new section in README](https://github.com/Tiendil/feeds.fun/tree/main?tab=readme-ov-file#configure-tag-normalizers) and check the default [normalization configs](https://github.com/Tiendil/feeds.fun/blob/a2e96ecf21ad3e283b0d8f82deea8dd5806caeee/ffun/ffun/tags/fixtures/tag_normalizers.toml) — some normalizers may eat a significant amount of RAM and CPU time.
 
-This is a short recap; the complete detailed list of changes you may find in our [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md).
+This is a brief recap; for a complete, detailed list of changes, please refer to our [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md).
 
 ## Roadmap
 
 Do not forget about our [long-term development plans](https://github.com/users/Tiendil/projects/1/views/1?pane=info).
 
-Bunch of new tasks were added to the roadmap after research of tags normalization:
+A bunch of new tasks were added to the roadmap after research on tag normalization:
 
 - [Tag normalization: remove prefix/suffix parts of a tag to produce "parent" tag](https://github.com/Tiendil/feeds.fun/issues/421)
 - [Tag normalization: abbreviations normalization](https://github.com/Tiendil/feeds.fun/issues/422)
