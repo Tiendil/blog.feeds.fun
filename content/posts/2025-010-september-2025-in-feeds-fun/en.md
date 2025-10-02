@@ -20,11 +20,11 @@ Hey everyone! This is the monthly recap of Feeds Fun.
 
 - Tag variations like `book-reviews`, `book-review` (and so on) now automatically normalize to one suitable form. This should reduce the total number of tags you see in the GUI and improve the effect of rules, because they begin to apply to more news now.
 
-ATTENTION: You may need to update your existing rules to use normalized tag forms, as some old rules may still use non-normalized forms. Alternatively, you can just wait — we'll migrate your old rules to normalized tag forms this month.
+ATTENTION: You may need to update your existing rules to use normalized tag forms, since some older rules may still rely on non-normalized ones. Alternatively, you can just wait — we'll migrate your old rules to normalized tag forms this month.
 
 **What improved for our self-hosted users**:
 
-- With tag normalization introduced, you may want to read [new section in README](https://github.com/Tiendil/feeds.fun/tree/main?tab=readme-ov-file#configure-tag-normalizers) and check the default [normalization configs](https://github.com/Tiendil/feeds.fun/blob/a2e96ecf21ad3e283b0d8f82deea8dd5806caeee/ffun/ffun/tags/fixtures/tag_normalizers.toml) — some normalizers may consume a significant amount of RAM and CPU time.
+- With tag normalization introduced, you may want to read [new section in the README](https://github.com/Tiendil/feeds.fun/tree/main?tab=readme-ov-file#configure-tag-normalizers) and check the default [normalization configs](https://github.com/Tiendil/feeds.fun/blob/a2e96ecf21ad3e283b0d8f82deea8dd5806caeee/ffun/ffun/tags/fixtures/tag_normalizers.toml) — some normalizers may consume a significant amount of RAM and CPU time.
 
 This is a brief recap; for a complete, detailed list of changes, please refer to our [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md).
 
