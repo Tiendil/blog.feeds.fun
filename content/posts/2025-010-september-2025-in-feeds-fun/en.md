@@ -8,10 +8,8 @@ seo_image = ""
 
 Hey everyone! This is the monthly recap of Feeds Fun.
 
-Summary:
-
 - We made 3 releases. Numerous stability improvements and bug fixes were introduced.
-- Work on tags normalization, finally give some visible results, you should see much fewer tag duplicates now. Tag variations like `book-reviews`, `books-review`, `books-reviews`, `book-review` now automatically normalize to a one form `book-review`.
+- Work on tags normalization finally give some visible results — you should see much fewer tag duplicates now. Tag variations like `book-reviews`, `books-review`, `books-reviews`, `book-review` now automatically normalize to a one form `book-review`.
 - 2.5M news entries were loaded, 37 new users registered.
 
 <!-- more -->
