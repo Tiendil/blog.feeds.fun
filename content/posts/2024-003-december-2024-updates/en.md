@@ -3,8 +3,13 @@ title = "Short summary of the last two months of Feeds Fun"
 tags = ["news", "performance"]
 published_at = "2024-10-12T20:00:00+00:00"
 seo_description = "Short summary of the last two month updates of Feeds Fun: performance improvements."
-seo_image = ""
+seo_image = "./cover.jpg"
 ---
+
+/// brigid-images
+src = "./cover.jpg"
+alt = "Blog post cover image."
+///
 
 It's been a productive two months for Feeds Fun!
 

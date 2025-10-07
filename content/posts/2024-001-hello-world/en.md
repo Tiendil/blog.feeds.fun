@@ -3,8 +3,13 @@ title = "Hello World, It's Feeds Fun!"
 tags = ["news"]
 published_at = "2024-08-25T12:00:00+00:00"
 seo_description = "Intro post to the Feeds Fun blog: what is Feeds Fun and what to expect from this blog."
-seo_image = ""
+seo_image = "./cover.jpg"
 ---
+
+/// brigid-images
+src = "./cover.jpg"
+alt = "Blog post cover image."
+///
 
 Hello Everyone!
 
