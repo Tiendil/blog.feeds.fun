@@ -3,8 +3,13 @@ title = "Version 1.18 Released — collections going public"
 tags = ["news", "releases", "collections"]
 published_at = "2025-03-30T12:00:00+00:00"
 seo_description = "Feeds Fun 1.18 introduces public curated collections."
-seo_image = ""
+seo_image = "./cover.jpg"
 ---
+
+/// brigid-images
+src = "./cover.jpg"
+alt = "Blog post cover image."
+///
 
 **Feeds Fun 1.18** is live!
 
