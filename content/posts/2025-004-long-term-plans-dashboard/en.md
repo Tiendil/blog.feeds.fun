@@ -3,8 +3,13 @@ title = "Feeds Fun roadmap"
 tags = ["news", "documentation"]
 published_at = "2025-06-10T12:00:00+00:00"
 seo_description = "Check our long-term plans for Feeds Fun."
-seo_image = ""
+seo_image = "./cover.jpg"
 ---
+
+/// brigid-images
+src = "./cover.jpg"
+alt = "Blog post cover image."
+///
 
 We prepared a [dashboard with long-term development plans](https://github.com/users/Tiendil/projects/1/views/1?pane=info).
 

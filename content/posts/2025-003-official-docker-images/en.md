@@ -3,8 +3,13 @@ title = "Official Docker images released"
 tags = ["news", "docker"]
 published_at = "2025-05-19T12:00:00+00:00"
 seo_description = "Official Docker images for Feeds Fun are now available."
-seo_image = ""
+seo_image = "./cover.jpg"
 ---
+
+/// brigid-images
+src = "./cover.jpg"
+alt = "Blog post cover image."
+///
 
 Hey!
 
