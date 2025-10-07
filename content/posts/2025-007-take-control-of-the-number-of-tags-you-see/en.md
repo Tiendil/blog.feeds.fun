@@ -3,8 +3,13 @@ title = "Take control of the number of tags you see"
 tags = ["news", "releases", "documentation", "performance", "gui"]
 published_at = "2025-07-30T12:00:00+00:00"
 seo_description = "Update 1.20.5 introduces a new filter option to control the number of tags displayed in Feeds Fun, enhancing performance and usability."
-seo_image = ""
+seo_image = "./cover.jpg"
 ---
+
+/// brigid-images
+src = "./cover.jpg"
+alt = "Blog post cover image."
+///
 
 In the recent `1.20.5` update ([check it now!](https://feeds.fun)), we introduced the news filter option `Show tags`.
 
