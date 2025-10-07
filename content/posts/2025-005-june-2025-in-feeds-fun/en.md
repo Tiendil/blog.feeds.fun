@@ -3,8 +3,13 @@ title = "June 2025 in Feeds Fun"
 tags = ["monthly-recap", "news"]
 published_at = "2025-07-03T12:00:00+00:00"
 seo_description = "Check out what happened in Feeds Fun in June 2025."
-seo_image = ""
+seo_image = "./cover.jpg"
 ---
+
+/// brigid-images
+src = "./cover.jpg"
+alt = "Blog post cover image."
+///
 
 This is the first monthly recap of Feeds Fun. We hope it will become a regular occurrence, allowing you to stay up-to-date with the project.
 
