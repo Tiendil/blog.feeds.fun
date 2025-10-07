@@ -3,8 +3,13 @@ title = "Version 1.12 released!"
 tags = ["news", "releases", "collections", "gemini"]
 published_at = "2024-10-12T20:00:00+00:00"
 seo_description = "Version 1.12 of Feeds Fun is out! New feeds collections functionality, Gemini support, and more."
-seo_image = ""
+seo_image = "./cover.jpg"
 ---
+
+/// brigid-images
+src = "./cover.jpg"
+alt = "Blog post cover image."
+///
 
 I'm excited to announce the release of **Feeds Fun version 1.12**!
 
