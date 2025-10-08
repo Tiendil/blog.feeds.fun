@@ -34,6 +34,8 @@ There are numerous questions like that, and no clear answers.
 
 The situation is even more complicated because Feeds Fun uses multiple independent sources of tags, called "tag processors", each of which may have its own rules and conventions for tags. Some tags even come from the feed itself and, therefore, may take any form. You can find more about tag processors in our [README](https://github.com/Tiendil/feeds.fun?tab=readme-ov-file#configure-tag-processors).
 
+<!-- more -->
+
 ## Are multiple tag forms a problem?
 
 Imagine you are interested in news about science fiction books and want to prioritize them in your feed.
