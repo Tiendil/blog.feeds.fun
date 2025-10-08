@@ -51,6 +51,7 @@ rules = "rules"
 gui = "gui"
 docker = "docker"
 monthly-recap = "monthly recap"
+tags = "tags"
 
 [theme_translations]
 tags_filter_header = 'Texts:'
