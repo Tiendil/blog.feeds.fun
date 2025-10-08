@@ -42,19 +42,19 @@ The rule should be simple, such as:
 
 > If a news entry is about books and science fiction, then increase its score by 10 points.
 
-However, with at least 4 tags for book reviews: `book-review`, `book-reviews`, `books-review`, `books-reviews` and at least 3 tags for science fiction: `science-fiction`, `sci-fi`, `scifi` you will need to create `4 * 3 = 12` rules to cover all the possible combinations.
+However, with at least 4 tags for book reviews `book-review`, `book-reviews`, `books-review`, `books-reviews`, and at least 3 tags for science fiction `science-fiction`, `sci-fi`, `scifi`, you will need to create `4 * 3 = 12` rules to cover all the possible combinations.
 
 It will be really inconvenient, and you would probably miss some of the tags or combinations, and therefore, miss some of the news you are interested in.
 
 That is why Feeds Fun tries its best to normalize tags — to convert different forms of the same tag to a single canonical form.
 
-This allows you to create a single rule like `book-reviews + science-fiction => +10` that will cover all the news you are interested in.
+This allows you to create a single rule, such as `book-reviews + science-fiction => +10`, that will cover all the news you are interested in.
 
 ## Feeds Fun's approach to tag normalization
 
-There is no standard for tags, and we don't want to invent one. Instead, we use a set of [heuristics](https://en.wikipedia.org/wiki/Heuristic) that convert most of the tags to a canonical form. By "canonical" we mean a form that is readable enough and understandable enough to be convenient for most of the users.
+There is no standard for tags, and we don't want to invent one. Instead, we use a set of [heuristics](https://en.wikipedia.org/wiki/Heuristic) that convert most tags to a canonical form. By "canonical" we mean a form that is readable enough and understandable enough to be convenient for most users.
 
-Our strategy is to grow the set of normalization rules until we cover most of the tags we see in the wild. We call such rules "tag normalizers".
+Our strategy is to grow the set of normalization rules until we cover most tags we see in the wild. We call such rules "tag normalizers".
 
 You can find the detailed description of the current tag normalization rules in our [repository](https://github.com/Tiendil/feeds.fun/blob/main/ffun/ffun/tags/fixtures/tag_normalizers.toml)
 
@@ -97,7 +97,7 @@ Our current approach is to iterate over combinations of singular/plural forms of
 
 For example, for book reviews, we try forms `book-review`, `book-reviews`, `books-review`, `books-reviews` and choose `book-review`.
 
-This approach works for most of the tags, but there are some special cases described below that we plan to fix as we grow the set of normalization rules.
+This approach works for most tags, but there are some special cases described below that we plan to fix as we grow the set of normalization rules.
 
 ## 99.9…% of correctly normalized tags is enough
 
