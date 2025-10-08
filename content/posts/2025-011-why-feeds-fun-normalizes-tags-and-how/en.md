@@ -1,5 +1,5 @@
 ---
-title = "Why Feeds Fun normalizes tags and how"
+title = "Why Feeds Fun normalizes tags — and how"
 tags = ["documentation", "tags"]
 published_at = "2025-10-12T12:00:00+00:00"
 seo_description = "How Feeds Fun normalizes tags and why it is important."
@@ -14,7 +14,7 @@ alt = "Blog post cover image."
 /// note | Read this post if
 
 - You want to use Feeds Fun rules more efficiently.
-- You look for a deepper understanding of how tags work in Feeds Fun.
+- You look for a deeper understanding of how tags work in Feeds Fun.
 - You self-host Feeds Fun and want to configure tag normalization.
 - You are interested in tagging and approaches to it.
 
@@ -22,7 +22,7 @@ alt = "Blog post cover image."
 
 Tags are the real source of power in Feeds Fun. They allow you to rank, filter and sort news how you want, saving your time and energy.
 
-Hovewer, tagging is not so simple as it seems. There is no strict definition of what a tag is, nor there is a standard for naming them.
+However, tagging is not so simple as it seems. There is no strict definition of what a tag is, nor there is a standard for naming them.
 
 We may agree, that tag is a some short string that describes the text or a part of it. But…
 
@@ -32,7 +32,7 @@ We may agree, that tag is a some short string that describes the text or a part 
 
 There are numerous questions like that, and no clear answers.
 
-The situsation even more complicated, because Feeds Fun uses different independent sources of tags, named "tag processors", each of them may have its own rules and conventions for tags. Some tags even come from the feed itself and, therefore, may take any form.
+The situation even more complicated, because Feeds Fun uses different independent sources of tags, named "tag processors", each of them may have its own rules and conventions for tags. Some tags even come from the feed itself and, therefore, may take any form.
 
 ## Are multiple tag forms a problem?
 
@@ -40,7 +40,7 @@ Imagine you are interested in news about science fiction books and want prioriti
 
 The rule should be simple, like: "if the news entry is about book(s) and science fiction, then increase its score by 10".
 
-However, with at least 4 tags for book reviews: `book-review`, `book-reviews`, `books-review`, `books-reviews` and at least 3 tags for science fiction: `science-fiction`, `sci-fi`, `scifi` you will ned to create `4 * 3 = 12` (!) rules to cover all the possible combinations.
+However, with at least 4 tags for book reviews: `book-review`, `book-reviews`, `books-review`, `books-reviews` and at least 3 tags for science fiction: `science-fiction`, `sci-fi`, `scifi` you will need to create `4 * 3 = 12` (!) rules to cover all the possible combinations.
 
 It will be really inconvenient, and you will probably miss some of the tags or combinations, and, therefore, miss some of the news you are interested in.
 
@@ -60,12 +60,12 @@ Here let's briefly discuss the meta-heuristics we follow.
 
 ## The simple tag is a good tag
 
-The shorter and preciser the tag is, the easier it is to use it.
+The shorter and more precise the tag is, the easier it is to use it.
 
 We try to simplify tags without losing their meaning:
 
 - Remove "unnecessary" parts, like `a`, `the`, `now`, and so on: `a-book-review` => `book-review`, `things-that-make-me-happy` => `things-make-me-happy`.
-- Prefere single-part tags over multi-part ones, if single-part is idiomatic enough: `e-mail` => `email`, `web-site` => `website`, `to-do` => `todo`.
+- Prefer single-part tags over multi-part ones, if single-part is idiomatic enough: `e-mail` => `email`, `web-site` => `website`, `to-do` => `todo`.
 - Prefere general terms over jargon: `cuz-i-can` => `because-i-can`.
 
 ## Two simple tags are better than one complex
@@ -74,9 +74,9 @@ Between `animation-in-video-games` and `animation + video-games` we prefer the l
 
 It may seems that having a lot of hyper-specialized tags is good for creating precise rules. However, in practice it leads to tag explosion, when each news entry is accompanied by dozens of rare tags that are not suitable for most of users.
 
-Also, complex tags are harder to produce: it is much simpler to detect that an article is about `animation` or `video-games` than to detect that it is exectly about `animation-in-video-games`. Complex tags approach leads not only to tag explosion, but also to loss of information.
+Also, complex tags are harder to produce: it is much simpler to detect that an article is about `animation` or `video-games` than to detect that it is exactly about `animation-in-video-games`. Complex tags approach leads not only to tag explosion, but also to loss of information.
 
-At the same time, the loss of precision in rules is not so significant, because of the power of Feeds Fun rules system. There are multiple approachers to target posts related to `animation-in-video-games`:
+At the same time, the loss of precision in rules is not so significant, because of the power of Feeds Fun rules system. There are multiple approaches to target posts related to `animation-in-video-games`:
 
 - Create two rules `animation => +5` and `video-games => +5`, so that posts about both topics will get +10.
 - Create a rule `animation + video-games => +10` to target posts about both topics.
@@ -89,7 +89,7 @@ You can tune the ranking with negative rules in pair to positive one if required
 
 ## There should be only one canonical form of a tag
 
-A single not-so-readable tag is better than multiple readable once, because it simplifies the rules creation and navigation.
+A single not-so-readable tag is better than multiple readable ones, because it simplifies the rules creation and navigation.
 
 Our current approach is to iterate over combinations of singular/plural forms of each part of the tag and choose the statistically most probable one.
 
