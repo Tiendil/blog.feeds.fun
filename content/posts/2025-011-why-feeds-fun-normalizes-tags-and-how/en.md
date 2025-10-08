@@ -58,7 +58,7 @@ You can find the detailed description of the current tag normalization rules in 
 
 Here let's briefly discuss the meta-heuristics we follow.
 
-### The simple tag is a good tag
+## The simple tag is a good tag
 
 The shorter and preciser the tag is, the easier it is to use it.
 
@@ -68,7 +68,7 @@ We try to simplify tags without losing their meaning:
 - Prefere single-part tags over multi-part ones, if single-part is idiomatic enough: `e-mail` => `email`, `web-site` => `website`, `to-do` => `todo`.
 - Prefere general terms over jargon: `cuz-i-can` => `because-i-can`.
 
-### Two simple tags are better than one complex
+## Two simple tags are better than one complex
 
 Between `animation-in-video-games` and `animation + video-games` we prefer the latter.
 
@@ -87,7 +87,7 @@ You can tune the ranking with negative rules in pair to positive one if required
 - `animation + not video-games => -5` to reduce the score of posts about animation outside video games;
 - `animation + cartoon => -5` to reduce the score of posts about specific animation topic.
 
-### There should be only one canonical form of a tag
+## There should be only one canonical form of a tag
 
 A single not-so-readable tag is better than multiple readable once, because it simplifies the rules creation and navigation.
 
@@ -97,7 +97,7 @@ For example, for book reviews, we try forms `book-review`, `book-reviews`, `book
 
 This approach works for most of the tags, but there are some special cases described below, that we plan fix as we grow the set of normalization rules.
 
-### 99.9…% of correctly normalized tags is enough
+## 99.9…% of correctly normalized tags is enough
 
 Despite we strive to provide the best possible tags for each news entry, there is always a chance that some tags will be normalized to a not-so-good form. Mostly because human languages are complex as our culture and reality — there are always exceptions to the rules.
 
