@@ -78,16 +78,16 @@ It may seem that having a lot of hyper-specialized tags is beneficial for creati
 
 Also, complex tags are harder to produce: it is much simpler to detect that an article is about `animation` or `video-games` than to detect that it is precisely about `animation-in-video-games`. That means the complex-tag approach not only leads to tag explosion but also results in a loss of information.
 
-At the same time, the loss of precision in rules is not so significant, because of the power of Feeds Fun's rule system. There are multiple ways to target posts related to `animation-in-video-games`:
+At the same time, the loss of precision in rules is not so significant, due to the power of Feeds Fun's rule system. There are multiple ways to target posts related to `animation-in-video-games`:
 
-- Create two rules `animation => +5` and `video-games => +5`, so that posts about both topics will get +10.
+- Create two rules: `animation => +5` and `video-games => +5`, so that posts about both topics will get +10.
 - Create a rule `animation + video-games => +10` to target posts about both topics.
 
 You can tune the ranking with negative rules paired with positive ones if needed, like:
 
-- `animation => -3` to reduce the score of all posts about animation, so most of them will have a rank below 0, except those who are ranked with one of the above rules.
+- `animation => -3` to reduce the score of all posts about animation, so most of them will have a rank below 0, except those that are ranked with one of the above rules.
 - `animation + not(video-games) => -5` to reduce the score of posts about animation outside of video games;
-- `animation + cartoon => -5` to reduce the score of posts about specific animation topic.
+- `animation + cartoon => -5` to reduce the score of posts about a specific animation topic.
 
 ## A not-so-good canonical form is better than no canonical form
 
@@ -97,11 +97,11 @@ Our current approach is to iterate over combinations of singular/plural forms of
 
 For example, for book reviews, we try forms `book-review`, `book-reviews`, `books-review`, `books-reviews` and choose `book-review`.
 
-This approach works for most tags, but there are some special cases described below that we plan to fix as we grow the set of normalization rules.
+This approach works for most tags, but there are some complicated cases described below that we plan to fix as we grow the set of normalization rules.
 
 ## 99.9…% of correctly normalized tags is enough
 
-Although we strive to provide the best possible tags for each news entry, there is always a chance that some tags will be normalized to a not-so-good form. This is mostly because human languages, as well as our culture and reality, are complex — there are always exceptions.
+Although we strive to provide the best possible tags for each news entry, there is always a chance that some tags may be normalized to a not-so-good form. This is mostly because human languages, as well as our culture and reality, are complex — there are always exceptions.
 
 You can always track our progress on the path to perfection on our [roadmap](https://github.com/users/Tiendil/projects/1), where we have a whole section dedicated to tagging improvements.
 
@@ -114,7 +114,7 @@ Just to give you an idea of possible mistakes (as of October 2025):
 
 ## How to help make Feeds Fun better
 
-We need your feedback on our tagging system. Tell us how you use it and how it can be improved.
+We need your feedback on our tagging system. Please, tell us how you use it and how it can be improved.
 
 There are two special places where you can share your thoughts on tags:
 
