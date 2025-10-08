@@ -3,11 +3,13 @@ title = "Why Feeds Fun normalizes tags and how"
 tags = ["documentation", "tags"]
 published_at = "2025-10-12T12:00:00+00:00"
 seo_description = "How Feeds Fun normalizes tags and why it is important."
-seo_image = ""
+seo_image = "./cover.jpg"
 ---
 
-<!-- TODO: add cover image -->
-<!-- TODO: add seo_cover image -->
+/// brigid-images
+src = "./cover.jpg"
+alt = "Blog post cover image."
+///
 
 /// note | Read this post if
 
@@ -44,7 +46,7 @@ It will be really inconvenient, and you will probably miss some of the tags or c
 
 That is why Feeds Fun tries its best to normalize tags, so that different forms of the same tag will be converted to a single canonical form.
 
-So, you'll be able to create a single rule like `book-reviews + science-fiction -> +10` and be sure that it will cover all the possible tag forms and all the news you are interested in.
+So, you'll be able to create a single rule like `book-reviews + science-fiction => +10` and be sure that it will cover all the possible tag forms and all the news you are interested in.
 
 ## Feeds Fun approach to tags normalization
 
@@ -64,9 +66,9 @@ You can always track our progress on the path to perfection on our [roadmap](htt
 
 Just to give you an idea of possible mistakes (at the November 2025):
 
-- Some proper names may be normalized to a wrong form: `emacs -> emac`.
-- Some terms may be normalized to a wrong form: `arms-control -> arm-control`.
-- Some special word forms may be normalized to a wrong form: `glasses-case -> glass-case`.
+- Some proper names may be normalized to a wrong form: `emacs` => `emac`.
+- Some terms may be normalized to a wrong form: `arms-control` => `arm-control`.
+- Some special word forms may be normalized to a wrong form: `glasses-case` => `glass-case`.
 - There may be multiple versions of the tags with abbreviations: `ai-regulation`, `artificial-intelligence-regulation`.
 
 ///
@@ -81,9 +83,9 @@ The shorter and preciser the tag is, the easier it is to use it.
 
 We try to simplify tags without losing their meaning:
 
-- Remove unnecessary parts, like `a`, `the`, `now`, and so on: `a-book-review -> book-review`, `things-that-make-me-happy` -> `things-make-me-happy`.
-- Prefere single-part tags over multi-part ones, if single-part is idiomatic enough: `e-mail -> email`, `web-site -> website`, `to-do -> todo`.
-- Prefere general terms over jargon: `cuz-i-can -> because-i-can`.
+- Remove unnecessary parts, like `a`, `the`, `now`, and so on: `a-book-review` => `book-review`, `things-that-make-me-happy` => `things-make-me-happy`.
+- Prefere single-part tags over multi-part ones, if single-part is idiomatic enough: `e-mail` => `email`, `web-site` => `website`, `to-do` => `todo`.
+- Prefere general terms over jargon: `cuz-i-can` => `because-i-can`.
 
 ### Two simple tags are better than one complex
 
@@ -95,14 +97,14 @@ Also, complex tags are harder to produce: it is much simpler to detect that an a
 
 The loss of precision in rules is not so significant, because of the power of Feeds Fun rules system. There are multiple approachers to target posts about `animation-in-video-games`:
 
-- Create two rules `animation -> +5` and `video-games -> +5`, so that posts about both topics will get +10.
-- Create a rule `animation + video-games -> +10` to target posts about both topics.
+- Create two rules `animation => +5` and `video-games => +5`, so that posts about both topics will get +10.
+- Create a rule `animation + video-games => +10` to target posts about both topics.
 
 You can tune the ranking with negative rules in pair to positive one if required, like:
 
-- `animation -> -3` to reduce the score of all posts about animation, so most of them will have rank below 0, except those who are ranked with one of above rules.
-- `animation + not video-games -> -5` to reduce the score of posts about animation outside video games;
-- `animation + cartoon -> -5` to reduce the score of posts about cartoon animation.
+- `animation => -3` to reduce the score of all posts about animation, so most of them will have rank below 0, except those who are ranked with one of above rules.
+- `animation + not video-games => -5` to reduce the score of posts about animation outside video games;
+- `animation + cartoon => -5` to reduce the score of posts about cartoon animation.
 
 ### There should be only one canonical form of a tag
 
@@ -132,9 +134,5 @@ There are two special places where you can share your thoughts on tags:
 - Roadmap: [Roadmap](https://github.com/users/Tiendil/projects/1/views/1?pane=info)
 - Full changelog: [CHANGELOG.md](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md)
 
-
-Move arrows out of code blocks (?)
-
-add standard links suffix
 
 use "canonical" word more often?
