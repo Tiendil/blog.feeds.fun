@@ -107,6 +107,15 @@ So, for book reviews, we try forms `book-review`, `book-reviews`, `books-review`
 
 This works for most of the tags, but there are some special cases described early, we'll fix them as we grow the set of normalization rules.
 
+## How to help make Feeds Fun better
+
+We need your feedback on our tagging system, tell us how you use it or how it can be improved.
+
+There are two special places where you can share your thoughts on tags:
+
+- Comment tasks in our [roadmap](https://github.com/users/Tiendil/projects/1).
+- Tell us your ideas or report tag-related problems in our [megathread on Reddit](https://www.reddit.com/r/feedsfun/comments/1o186to/place_for_tag_ideas_reports/).
+
 ## Stay Connected
 
 - Site: [feeds.fun](https://feeds.fun/)
