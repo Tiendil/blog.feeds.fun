@@ -1,6 +1,6 @@
 ---
 title = "Why Feeds Fun normalizes tags — and how"
-tags = ["documentation", "tags"]
+tags = ["documentation", "tags", "rules"]
 published_at = "2025-10-12T12:00:00+00:00"
 seo_description = "How Feeds Fun normalizes tags and why it is important."
 seo_image = "./cover.jpg"
@@ -74,9 +74,9 @@ We try to simplify tags without losing their meaning:
 
 Between `animation-in-video-games` and `animation + video-games`, we prefer the latter.
 
-It may seem that having a lot of hyper-specialized tags is good for creating precise rules. However, in practice, it leads to tag explosion, when each news entry is accompanied by dozens of rare tags that are not suitable for most users.
+It may seem that having a lot of hyper-specialized tags is beneficial for creating precise rules. However, in practice, it leads to tag explosion, when each news entry is accompanied by dozens of rare tags that are not suitable for most users.
 
-Also, complex tags are harder to produce: it is much simpler to detect that an article is about `animation` or `video-games` than to detect that it is exactly about `animation-in-video-games`. That means the complex-tag approach leads not only to tag explosion but also to a loss of information.
+Also, complex tags are harder to produce: it is much simpler to detect that an article is about `animation` or `video-games` than to detect that it is precisely about `animation-in-video-games`. That means the complex-tag approach not only leads to tag explosion but also results in a loss of information.
 
 At the same time, the loss of precision in rules is not so significant, because of the power of Feeds Fun's rule system. There are multiple ways to target posts related to `animation-in-video-games`:
 
