@@ -48,7 +48,7 @@ It will be really inconvenient, and you would probably miss some of the tags or 
 
 That is why Feeds Fun tries its best to normalize tags — to convert different forms of the same tag to a single canonical form.
 
-This allows you to create a single rule, such as `book-reviews + science-fiction => +10`, that will cover all the news you are interested in.
+This allows you to create a single rule, such as `book-review + science-fiction => +10`, that will cover all the news you are interested in.
 
 ## Feeds Fun's approach to tag normalization
 
