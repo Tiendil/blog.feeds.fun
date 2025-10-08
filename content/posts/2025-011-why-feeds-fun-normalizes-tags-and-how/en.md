@@ -97,6 +97,25 @@ You can tune the ranking with negative rules in pair to positive one if required
 - `animation + not video-games -> -5` to reduce the score of posts about animation outside video games;
 - `animation + cartoon -> -5` to reduce the score of posts about cartoon animation.
 
+### There should be only one canonical form of a tag
+
+We try to put all tag forms into a single canonical form. We do our best to make this form as readable and convenient as possible, but a single not-so-readable form is better than multiple readable once, because it simplifies the rules creation and navigation.
+
+Our current approach is to iterate over combinations of singular/plural forms of each part of the tag and choose the statistically most probable one.
+
+So, for book reviews, we try forms `book-review`, `book-reviews`, `books-review`, `books-reviews` and choose `book-review`.
+
+This works for most of the tags, but there are some special cases described early, we'll fix them as we grow the set of normalization rules.
+
+## Stay Connected
+
+- Site: [feeds.fun](https://feeds.fun/)
+- Reddit: [r/feedsfun](https://www.reddit.com/r/feedsfun/)
+- Discord: [Feeds Fun](https://discord.com/invite/C5RVusHQXy)
+- Repository: [github.com/Tiendil/feeds.fun](https://github.com/Tiendil/feeds.fun)
+- Roadmap: [Roadmap](https://github.com/users/Tiendil/projects/1/views/1?pane=info)
+- Full changelog: [CHANGELOG.md](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md)
+
 
 --------------
 
@@ -112,6 +131,7 @@ note:
 
 - this post will be updated, as new tag normalization rules will be added
 - this post will be helpfull for those who self-host Feeds Fun or thoses who want depper understand how tags work
+- about some rule creation practices
 
 repost to:
 
@@ -126,3 +146,5 @@ Move arrows out of code blocks (?)
 -----
 
 add standard links suffix
+
+use "canonical" word more often?
