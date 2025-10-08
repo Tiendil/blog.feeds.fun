@@ -48,15 +48,15 @@ That is why Feeds Fun tries its best to normalize tags — convert different for
 
 This allows you to create a single rule like `book-reviews + science-fiction => +10` that will cover all the news you are interested in.
 
-## Feeds Fun approach to tags normalization
+## Feeds Fun's approach to tag normalization
 
-There is no standard for tags and we don't want to invent one. Instead, we use a set of [heuristics](https://en.wikipedia.org/wiki/Heuristic) that bring most of the tags (but not every) to a canonical form. By canonical we mean a form that is readable-enough and understandable-enough to be convenient for most of the users.
+There is no standard for tags and we don't want to invent one. Instead, we use a set of [heuristics](https://en.wikipedia.org/wiki/Heuristic) that bring most of the tags (but not every) to a canonical form. By "canonical" we mean a form that is readable enough and understandable enough to be convenient for most of the users.
 
 Our strategy is to grow the set of normalization rules until we cover most of the tags we see in the wild. We call such rules "tag normalizers".
 
 You can find the detailed description of the current tag normalization rules in our [repository](https://github.com/Tiendil/feeds.fun/blob/main/ffun/ffun/tags/fixtures/tag_normalizers.toml)
 
-Here let's briefly discuss the meta-heuristics we follow.
+Here, let's briefly discuss the metaheuristics we follow.
 
 ## The simple tag is a good tag
 
