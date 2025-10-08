@@ -40,7 +40,7 @@ Imagine you are interested in news about science fiction books and want to prior
 
 The rule should be simple, such as:
 
-> If a news entry is about books and science fiction, then increase its score by 10.
+> If a news entry is about books and science fiction, then increase its score by 10 points.
 
 However, with at least 4 tags for book reviews: `book-review`, `book-reviews`, `books-review`, `books-reviews` and at least 3 tags for science fiction: `science-fiction`, `sci-fi`, `scifi` you will need to create `4 * 3 = 12` rules to cover all the possible combinations.
 
@@ -78,7 +78,7 @@ It may seem that having a lot of hyper-specialized tags is good for creating pre
 
 Also, complex tags are harder to produce: it is much simpler to detect that an article is about `animation` or `video-games` than to detect that it is exactly about `animation-in-video-games`. That means the complex-tag approach leads not only to tag explosion but also to a loss of information.
 
-At the same time, the loss of precision in rules is not so significant, because of the power of Feeds Fun's rule system. There are multiple approaches to target posts related to `animation-in-video-games`:
+At the same time, the loss of precision in rules is not so significant, because of the power of Feeds Fun's rule system. There are multiple ways to target posts related to `animation-in-video-games`:
 
 - Create two rules `animation => +5` and `video-games => +5`, so that posts about both topics will get +10.
 - Create a rule `animation + video-games => +10` to target posts about both topics.
@@ -86,10 +86,10 @@ At the same time, the loss of precision in rules is not so significant, because 
 You can tune the ranking with negative rules paired with positive ones if needed, like:
 
 - `animation => -3` to reduce the score of all posts about animation, so most of them will have a rank below 0, except those who are ranked with one of the above rules.
-- `animation + not video-games => -5` to reduce the score of posts about animation outside of video games;
+- `animation + not(video-games) => -5` to reduce the score of posts about animation outside of video games;
 - `animation + cartoon => -5` to reduce the score of posts about specific animation topic.
 
-## There should be only one canonical form of a tag
+## A not-so-good canonical form is better than no canonical form
 
 A single not-so-readable tag is better than multiple readable ones because it simplifies rule creation and navigation.
 
@@ -105,7 +105,7 @@ Although we strive to provide the best possible tags for each news entry, there 
 
 You can always track our progress on the path to perfection on our [roadmap](https://github.com/users/Tiendil/projects/1), where we have a whole section dedicated to tagging improvements.
 
-Just to give you an idea of possible mistakes (as of November 2025):
+Just to give you an idea of possible mistakes (as of October 2025):
 
 - Some proper names may be broken: `emacs` => `emac`.
 - Some terms can lose meaning: `arms-control` => `arm-control`.
@@ -114,7 +114,7 @@ Just to give you an idea of possible mistakes (as of November 2025):
 
 ## How to help make Feeds Fun better
 
-We need your feedback on our tagging system. Tell us how you use it or how it can be improved.
+We need your feedback on our tagging system. Tell us how you use it and how it can be improved.
 
 There are two special places where you can share your thoughts on tags:
 
