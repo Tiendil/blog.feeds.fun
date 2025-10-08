@@ -32,7 +32,7 @@ We may agree that a tag is a short string that describes the text or part of it.
 
 There are numerous questions like that, and no clear answers.
 
-The situation is even more complicated because Feeds Fun uses multiple independent sources of tags, called "tag processors", each of which may have its own rules and conventions for tags. Some tags even come from the feed itself and, therefore, may take any form.
+The situation is even more complicated because Feeds Fun uses multiple independent sources of tags, called "tag processors", each of which may have its own rules and conventions for tags. Some tags even come from the feed itself and, therefore, may take any form. You can find more about tag processors in our [README](https://github.com/Tiendil/feeds.fun?tab=readme-ov-file#configure-tag-processors).
 
 ## Are multiple tag forms a problem?
 
