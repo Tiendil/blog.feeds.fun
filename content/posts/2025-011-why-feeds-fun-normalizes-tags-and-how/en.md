@@ -20,7 +20,7 @@ alt = "Blog post cover image."
 
 ///
 
-Tags are the real source of power in Feeds Fun. They allow you to rank, filter and sort news how you want, saving your time and energy.
+Tags are the real source of power in Feeds Fun. They allow you to rank, filter, and sort news how you want, saving your time and energy.
 
 However, tagging is not so simple as it seems. There is no strict definition of what a tag is, nor is there a standard for naming them.
 
