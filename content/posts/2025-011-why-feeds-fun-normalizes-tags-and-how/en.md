@@ -60,6 +60,24 @@ You can find the detailed description of the current tag normalization rules in 
 
 Here, let's briefly discuss the high-level heuristics we follow.
 
+/// note | Standartized representation as the basis for normalization
+
+Before we start normalizing anything, we should have it in some standardized representation.
+
+In the case of Feeds Fun it is a hyphen-separated lowercase ASCII string in English, for example: `book-review`, `science-fiction`, `300-spartans`.
+
+It is not the only best possible representation — just plain and simple enough to work with.
+
+///
+
+## English as the base language
+
+One concept can be expressed in different languages, keeping the same meaning: `book`, `книга`, `livre`, `Buch`, `كتاب`.
+
+Feeds Fun uses English as the base language for tags, so all tags are translated to English before any further processing.
+
+We plan to support other languages in the future by translating already normalized tags to different languages. That should help us to keep normalization rules simple and effective, without losing the expressiveness of tags.
+
 ## A simple tag is a good tag
 
 The shorter and more precise the tag is, the easier it is to use.
