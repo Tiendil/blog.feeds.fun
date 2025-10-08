@@ -36,17 +36,17 @@ The situation is even more complicated because Feeds Fun uses multiple independe
 
 ## Are multiple tag forms a problem?
 
-Imagine you are interested in news about science fiction books and want prioritize them in your feed.
+Imagine you are interested in news about science fiction books and want to prioritize them in your feed.
 
-The rule should be simple, like: "if the news entry is about book(s) and science fiction, then increase its score by 10".
+The rule should be simple, such as: "if a news entry is about book(s) and science fiction, then increase its score by 10".
 
-However, with at least 4 tags for book reviews: `book-review`, `book-reviews`, `books-review`, `books-reviews` and at least 3 tags for science fiction: `science-fiction`, `sci-fi`, `scifi` you will need to create `4 * 3 = 12` (!) rules to cover all the possible combinations.
+However, with at least 4 tags for book reviews: `book-review`, `book-reviews`, `books-review`, `books-reviews` and at least 3 tags for science fiction: `science-fiction`, `sci-fi`, `scifi` you will need to create `4 * 3 = 12` rules to cover all the possible combinations.
 
 It will be really inconvenient, and you will probably miss some of the tags or combinations, and, therefore, miss some of the news you are interested in.
 
 That is why Feeds Fun tries its best to normalize tags — convert different forms of the same tag to a single canonical form.
 
-To allow you creating a single rule like `book-reviews + science-fiction => +10` that will cover all the news you are interested in.
+This allows you to create a single rule like `book-reviews + science-fiction => +10` that will cover all the news you are interested in.
 
 ## Feeds Fun approach to tags normalization
 
