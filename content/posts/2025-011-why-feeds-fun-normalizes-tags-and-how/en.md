@@ -2,14 +2,12 @@
 title = "Why Feeds Fun normalizes tags and how"
 tags = ["documentation", "tags"]
 published_at = "2025-10-12T12:00:00+00:00"
-seo_description = ""
+seo_description = "How Feeds Fun normalizes tags and why it is important."
 seo_image = ""
 ---
 
-<!-- TODO: add documentation section -->
 <!-- TODO: add cover image -->
 <!-- TODO: add seo_cover image -->
-<!-- TODO: add seo_description -->
 
 Tags are the real source of power in Feeds Fun. They allow you to rank, filter and sort news how you want, saving you time and energy.
 
@@ -126,33 +124,13 @@ There are two special places where you can share your thoughts on tags:
 - Full changelog: [CHANGELOG.md](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md)
 
 
---------------
-
-broken tags, `emacs` -> `emac`
-
-check roadmap for our plant on tags normalization
-
-we organize normalizers in a chain
-
-tell about how we treat native feed tags
-
 note:
 
 - this post will be updated, as new tag normalization rules will be added
 - this post will be helpfull for those who self-host Feeds Fun or thoses who want depper understand how tags work
 - about some rule creation practices
 
-repost to:
-
-- r/rss
-- r/self-hosted
-- r/pkms
-- hackernews
-- my twitter, bluesky, telegram
-
 Move arrows out of code blocks (?)
-
------
 
 add standard links suffix
 
