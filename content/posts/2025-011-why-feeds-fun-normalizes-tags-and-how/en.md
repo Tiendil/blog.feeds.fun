@@ -9,6 +9,15 @@ seo_image = ""
 <!-- TODO: add cover image -->
 <!-- TODO: add seo_cover image -->
 
+/// note | Read this post if
+
+- You want to use Feeds Fun rules more efficiently.
+- You look for a depper understanding of how tags work in Feeds Fun.
+- You self-host Feeds Fun and want to configure tag normalization.
+- You are interested in tagging and approaches to it.
+
+///
+
 Tags are the real source of power in Feeds Fun. They allow you to rank, filter and sort news how you want, saving you time and energy.
 
 Hovewer, tagging is not so simple as it seems. There is no strict definition of what a tag is, nor there is a standard for naming them.
@@ -123,12 +132,6 @@ There are two special places where you can share your thoughts on tags:
 - Roadmap: [Roadmap](https://github.com/users/Tiendil/projects/1/views/1?pane=info)
 - Full changelog: [CHANGELOG.md](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md)
 
-
-note:
-
-- this post will be updated, as new tag normalization rules will be added
-- this post will be helpfull for those who self-host Feeds Fun or thoses who want depper understand how tags work
-- about some rule creation practices
 
 Move arrows out of code blocks (?)
 
