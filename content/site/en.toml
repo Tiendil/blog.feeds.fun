@@ -8,6 +8,11 @@ author = "Aliaksei Yaletski (Tiendil)"
   url = "https://feeds.fun"
 
 [[menu]]
+  type = "article"
+  name = "Documentation"
+  slug = "documentation"
+
+[[menu]]
   type = "feed"
   css_classes = "ti ti-rss"
   name = ""
