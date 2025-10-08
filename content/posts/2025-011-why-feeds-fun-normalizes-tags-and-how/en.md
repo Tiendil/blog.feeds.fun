@@ -14,7 +14,7 @@ alt = "Blog post cover image."
 /// note | Read this post if
 
 - You want to use Feeds Fun rules more efficiently.
-- You look for a deeper understanding of how tags work in Feeds Fun.
+- You're looking for a deeper understanding of how tags work in Feeds Fun.
 - You self-host Feeds Fun and want to configure tag normalization.
 - You are interested in tagging and approaches to it.
 
@@ -22,17 +22,17 @@ alt = "Blog post cover image."
 
 Tags are the real source of power in Feeds Fun. They allow you to rank, filter and sort news how you want, saving your time and energy.
 
-However, tagging is not so simple as it seems. There is no strict definition of what a tag is, nor there is a standard for naming them.
+However, tagging is not so simple as it seems. There is no strict definition of what a tag is, nor is there a standard for naming them.
 
-We may agree, that tag is a some short string that describes the text or a part of it. But…
+We may agree that a tag is a short string that describes the text or a part of it. But…
 
-- How short it should be, is `this-text-is-about-modern-politics-in-the-central-asia` a tag or not?
-- What about `ourdays-politics` and `modern-politics` — are they different tags or forms of the same one?
+- How short should it be? Is `this-text-is-about-modern-politics-in-the-central-asia` a tag or not?
+- What about `ourdays-politics` and `modern-politics` — are they different tags or forms of the same tag?
 - Which one of the tags `book-review`, `book-reviews`, `books-review`, `books-reviews` should we use?
 
 There are numerous questions like that, and no clear answers.
 
-The situation even more complicated, because Feeds Fun uses different independent sources of tags, named "tag processors", each of them may have its own rules and conventions for tags. Some tags even come from the feed itself and, therefore, may take any form.
+The situation is even more complicated because Feeds Fun uses multiple independent sources of tags, named "tag processors", each of which may have its own rules and conventions for tags. Some tags even come from the feed itself and, therefore, may take any form.
 
 ## Are multiple tag forms a problem?
 
