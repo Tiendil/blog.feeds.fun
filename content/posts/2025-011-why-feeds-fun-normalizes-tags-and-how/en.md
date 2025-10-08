@@ -25,6 +25,21 @@ There are numerous questions like that, and no clear answers.
 
 The situsation even more complicated, because Feeds Fun uses different independent sources of tags, named `tag processors`, each of them may have its own rules and conventions for tags.
 
+## Are multiple tag forms a problem?
+
+Imagine you are interested in news about science fiction books and want prioritize them in your feed.
+
+The rule should be simple like `if the news entry is about book(s) and science fiction, then increase its score by 10`.
+
+However, with at least 4 tags for book reviews: `book-review`, `book-reviews`, `books-review`, `books-reviews` and at least 3 tags for science fiction: `science-fiction`, `sci-fi`, `scifi` you will have to create `3 * 4 = 12` rules to cover all the possible combinations.
+
+It will be really inconvenient, and you will probably miss some of the tags or combinations, and, therefore, miss some of the news you are interested in.
+
+That is why Feeds Fun tries its best to normalize tags, so that different forms of the same tag will be converted to a single canonical form.
+
+So, you'll be able to create a single rule like `book-reviews + science-fiction -> +10` and be sure that it will cover all the possible tag forms and all the news you are interested in.
+
+## Feeds Fun approach to tags normalization
 
 
 
@@ -32,6 +47,8 @@ The situsation even more complicated, because Feeds Fun uses different independe
 --------------
 
 broken tags, `emacs` -> `emac`
+
+check roadmap for our plant on tags normalization
 
 note:
 
