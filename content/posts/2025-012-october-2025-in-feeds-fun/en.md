@@ -21,16 +21,10 @@ Hey everyone! This is the monthly recap of Feeds Fun.
 
 ## Updates
 
-- ff-515 — Fixed displaying text on checkboxes in the GUI (some of them displayed inverted text).
-- Tag normalizer now does not try to normalize technical tag parts `-dot-`, `-plus-`, `-sharp-`.
-- ff-463 — Extended CLI `ffun cleaner` functionality to remove tags that are not assigned to any entry.
-- ff-517 —
-
-
-
 **What improved for the users of [feeds.fun](https://feeds.fun)**:
 
-- Fixed behavior of checkboxes in the GUI (some of them displayed inverted state).
+- Fixed the behavior of checkboxes in the GUI (some of them displayed an inverted state).
+- Improved tag normalization for some corner cases.
 
 **What improved for our self-hosted users**:
 
@@ -43,7 +37,7 @@ This is a brief recap; for a complete, detailed list of changes, please refer to
 
 Do not forget about our [long-term development plans](https://github.com/users/Tiendil/projects/1/views/1?pane=info).
 
-New task added to the roadmap: [Tag normalization: protect proper names from changing](https://github.com/Tiendil/feeds.fun/issues/446).
+New task added to the Roadmap: [Tag normalization: protect proper names from changing](https://github.com/Tiendil/feeds.fun/issues/446).
 
 Currently, we are working on [improving registration & login interfaces](https://github.com/Tiendil/feeds.fun/issues/365).
 
