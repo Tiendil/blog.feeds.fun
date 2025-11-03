@@ -65,7 +65,7 @@ Our plans are dynamic, and we are always open to suggestions and improvements. R
 - **Comment** to help us better understand your needs.
 - **Create a feature request** if we missed something important for you.
 
-## Fun stats for June
+## Fun stats for June 2025
 
 - `1.3M` news entries were loaded.
 - `43` new users registered.
