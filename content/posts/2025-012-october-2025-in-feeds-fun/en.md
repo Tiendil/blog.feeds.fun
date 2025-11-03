@@ -14,7 +14,7 @@ alt = "Blog post cover image."
 Hey everyone! This is the monthly recap of Feeds Fun.
 
 - We made 4 releases. Numerous stability improvements and bug fixes were introduced.
-- ???
+- Improved checkbox behavior in the GUI.
 - 2.6M news entries were loaded, 46 new users registered.
 
 <!-- more -->
