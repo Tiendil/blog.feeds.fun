@@ -11,25 +11,26 @@ src = "./cover.jpg"
 alt = "Blog post cover image."
 ///
 
-We'd like to share that Feeds Fun now properly supports authentication via external services.
+We'd like to share that Feeds Fun now supports authentication via external services.
 
-We moved away from the Supertokens-locked approach because it was too restrictive and, well, vendor-locked.
+We moved away from the SuperTokens-coupled approach because it was too restrictive and resulted in vendor lock-in.
 
-That means Feeds Fun should be much easier to self-host in multi-user mode. Simply put, you need to pass just two headers from your authentication proxy to the Feeds Fun backend — and you are good to go.
+That means Feeds Fun should be much easier to self-host in multi-user mode. Simply put, you only need to pass two headers from your authentication proxy to the Feeds Fun backend — and you're good to go.
 
 Single-user mode is still supported as well and does not require any authentication setup at all.
 
 Check an [example of a multi-user setup](https://github.com/Tiendil/feeds.fun/tree/main/docs/examples/multi-user) in our repo.
 
-It is as easy as to run those two steps:
+It is as easy as running these two steps:
 
 ```
 # Step 1 — add custom domains to /etc/hosts
 
+# Add the following lines to /etc/hosts (remove leading #):
 # 127.0.0.1 feeds.fun.local
 # 127.0.0.1 idp.feeds.fun.local
 
-# Step 2 — clone and up the services
+# Step 2 — clone the repository and start the services
 
 git clone git@github.com:Tiendil/feeds.fun.git
 cd ./feeds.fun/docs/examples/multi-user
@@ -44,11 +45,11 @@ The example uses:
 - [OAuth2-Proxy](https://oauth2-proxy.github.io/oauth2-proxy/) as the authentication proxy that sits between Feeds Fun and Keycloak.
 - [Caddy](https://caddyserver.com/) as the reverse proxy in front of everything.
 
-However, any popular authentication solution should work fine, as long as it can pass the headers to Feeds Fun backend and return 401 for unauthenticated requests to the frontend.
+However, any popular authentication solution should work fine, as long as it can pass the headers to the Feeds Fun backend and return HTTP 401 for unauthenticated requests to the frontend.
 
 Please let us know if you try it out!
 
-We also appreciate any feedback on the Feeds Fun configuration and PRs with improvements to examples.
+We also appreciate any feedback on the Feeds Fun configuration and pull requests with improvements to examples.
 
 ## Stay Connected
 
