@@ -1,6 +1,6 @@
 ---
 title = "External authentication support for self-hosted Feeds Fun"
-tags = ["releases", "documentation", "news", "tutorial"]
+tags = ["documentation", "news", "tutorial"]
 published_at = "2025-12-26T12:00:00+00:00"
 seo_description = "Feeds Fun now supports authentication via external services, making self-hosting in multi-user mode easier."
 seo_image = "./cover.jpg"
