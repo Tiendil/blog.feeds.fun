@@ -21,6 +21,8 @@ Single-user mode is still supported as well and does not require any authenticat
 
 Check an [example of a multi-user setup](https://github.com/Tiendil/feeds.fun/tree/main/docs/examples/multi-user) in our repo.
 
+<!-- more -->
+
 It is as easy as running these two steps:
 
 ```
