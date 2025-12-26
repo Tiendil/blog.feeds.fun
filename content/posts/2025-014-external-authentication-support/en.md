@@ -13,15 +13,15 @@ alt = "Blog post cover image."
 
 We'd like to share that Feeds Fun now properly supports authentication via external services.
 
-We moved away from Supertokens-locked approach because it was too restrictive and, well, vendor-locked.
+We moved away from the Supertokens-locked approach because it was too restrictive and, well, vendor-locked.
 
-That means Feeds Fun should be much easier to self-host in multi-user mode. Simply put, you need just to pass two headers from your authentication proxy to Feeds Fun backend — and you are good to go.
+That means Feeds Fun should be much easier to self-host in multi-user mode. Simply put, you need to pass just two headers from your authentication proxy to the Feeds Fun backend — and you are good to go.
 
 Single-user mode is still supported as well and does not require any authentication setup at all.
 
-Check an [example of multi-user setup](https://github.com/Tiendil/feeds.fun/tree/main/docs/examples/multi-user) in our repo.
+Check an [example of a multi-user setup](https://github.com/Tiendil/feeds.fun/tree/main/docs/examples/multi-user) in our repo.
 
-It is easy to run as those two steps:
+It is as easy as to run those two steps:
 
 ```
 # Step 1 — add custom domains to /etc/hosts
@@ -46,9 +46,9 @@ The example uses:
 
 However, any popular authentication solution should work fine, as long as it can pass the headers to Feeds Fun backend and return 401 for unauthenticated requests to the frontend.
 
-Please, tell us if you try it out!
+Please let us know if you try it out!
 
-We also appropreciate any feedback on the Feeds Fun confuration and PRs with improvements to examples.
+We also appreciate any feedback on the Feeds Fun configuration and PRs with improvements to examples.
 
 ## Stay Connected
 
