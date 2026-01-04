@@ -13,7 +13,7 @@ alt = "Blog post cover image."
 
 Hey everyone! This is the monthly recap of Feeds Fun.
 
-- We made 1 huge release with fully refactored registration & authentication system — made it more user-friendly and extensible.
+- We made 1 huge release with a fully refactored registration & authentication system — made it more user-friendly and extensible.
 - 2.5M news entries were loaded, 49 new users registered.
 
 <!-- more -->
@@ -25,7 +25,7 @@ Hey everyone! This is the monthly recap of Feeds Fun.
 Changes in our authentication system should be mostly invisible to you, what you may notice is:
 
 - Simpler invitation to login or register on the [home page](https://feeds.fun) of the site.
-- You can now log in with your Google, GitHub or X (Twitter) accounts. If you've already registered with an email (which is equal to your social account's email), you'll be asked to confirm it. This way, you can link your social account to your existing Feeds Fun account.
+- You can now log in with your Google, GitHub, or X (Twitter) accounts. If you've already registered with an email (which is the same as your social account's email), you'll be asked to confirm it. This way, you can link your social account to your existing Feeds Fun account.
 
 **What improved for our self-hosted users**:
 
@@ -40,7 +40,7 @@ Do not forget about our [long-term development plans](https://github.com/users/T
 
 - The task [Improve registration & login interfaces](https://github.com/Tiendil/feeds.fun/issues/365) is completed.
 
-We continue working on other tasks from "Quality of life" section of the Roadmap.
+We continue working on other tasks from the "Quality of life" section of the Roadmap.
 
 Our plans are dynamic, and we are always open to suggestions and improvements. React to the tasks you like:
 
@@ -52,7 +52,7 @@ Our plans are dynamic, and we are always open to suggestions and improvements. R
 
 - `2.5M` news entries were loaded.
 - `49` new users registered.
-- `~16.1 minutes / month` spent reading news by an average active user.
+- `~16.1 minutes/month` spent reading news by an average active user.
 
 ## Stay Connected
 
