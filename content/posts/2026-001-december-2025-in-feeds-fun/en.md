@@ -11,9 +11,9 @@ src = "./cover.jpg"
 alt = "Blog post cover image."
 ///
 
-Hey everyone! This is the monthly recap of Feeds Fun.
+Hey everyone! This is a monthly recap of Feeds Fun.
 
-- We made 1 huge release with a fully refactored registration & authentication system — made it more user-friendly and extensible.
+- We made 1 huge release with a fully refactored registration & authentication system — which made it more user-friendly and extensible.
 - 2.5M news entries were loaded, 49 new users registered.
 
 <!-- more -->
@@ -22,17 +22,17 @@ Hey everyone! This is the monthly recap of Feeds Fun.
 
 **What improved for the users of [feeds.fun](https://feeds.fun)**:
 
-Changes in our authentication system should be mostly invisible to you, what you may notice is:
+Changes in our authentication system should be mostly invisible to you. What you may notice is:
 
-- Simpler invitation to login or register on the [home page](https://feeds.fun) of the site.
-- You can now log in with your Google, GitHub, or X (Twitter) accounts. If you've already registered with an email (which is the same as your social account's email), you'll be asked to confirm it. This way, you can link your social account to your existing Feeds Fun account.
+- Simpler invitation to log in or register on the [home page](https://feeds.fun) of the site.
+- You can now log in with your Google, GitHub, or X (Twitter) accounts. If you've already registered with an email (the same as your social account's email), you'll be asked to confirm it. This way, you can link your social account to your existing Feeds Fun account.
 
 **What improved for our self-hosted users**:
 
-Some environment variables were renamed or removed. Please, check [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md) for the `1.22.0` version.
+Some environment variables were renamed or removed. Please, check [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md) for the version `1.22.0`.
 
 - If you host Feeds Fun in the single-user mode, no changes besides renaming some environment variables are required.
-- If you host Feeds Fun in the multi-user mode, you should configure your own OIDC flow, including Identity Provider, and migrate your SuperTokens users there. We have [full-fledged example of multi-user setup](https://github.com/Tiendil/feeds.fun/tree/main/docs/examples/multi-user) with [Keycloak](https://www.keycloak.org/), [OAuth2-Proxy](https://oauth2-proxy.github.io/oauth2-proxy/) and [Caddy](https://caddyserver.com/).
+- If you host Feeds Fun in the multi-user mode, you should configure your own OIDC flow, including Identity Provider, and migrate your SuperTokens users there. We have a [full-fledged example of a multi-user setup](https://github.com/Tiendil/feeds.fun/tree/main/docs/examples/multi-user) with [Keycloak](https://www.keycloak.org/), [OAuth2-Proxy](https://oauth2-proxy.github.io/oauth2-proxy/) and [Caddy](https://caddyserver.com/).
 
 ## Roadmap
 
@@ -48,7 +48,7 @@ Our plans are dynamic, and we are always open to suggestions and improvements. R
 - **Comment** to help us better understand your needs.
 - **Create a feature request** if we missed something important for you.
 
-## Fun stats for September 2025
+## Fun stats for December 2025
 
 - `2.5M` news entries were loaded.
 - `49` new users registered.
