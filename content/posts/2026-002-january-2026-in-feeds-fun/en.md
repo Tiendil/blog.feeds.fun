@@ -22,8 +22,8 @@ Hey everyone! This is a monthly recap of Feeds Fun.
 
 **What improved for users of [feeds.fun](https://feeds.fun)**:
 
-- Improved performance, precision and stability of feeds discovery logic.
-- Improved OPML import, now it better handles errors and displays user-friendly messages in case of problems.
+- Improved performance, precision, and stability of feeds discovery logic.
+- Improved OPML import; it now better handles errors and displays user-friendly messages in case of problems.
 - Tag filter is now case-insensitive.
 
 **What improved for self-hosted users**:
@@ -43,11 +43,11 @@ Tasks completed this month:
 
 New tasks added to the roadmap:
 
-- [Improve registration & login interfaces](https://github.com/Tiendil/feeds.fun/issues/365).
+- [Improve registration & login interfaces](https://github.com/Tiendil/feeds.fun/issues/365)
 - [Consistent display of published/collected dates](https://github.com/Tiendil/feeds.fun/issues/480)
 - [Mark all as read](https://github.com/Tiendil/feeds.fun/issues/479)
 
-We continue working on other tasks from the "Quality of life" section of the Roadmap.
+We continue working on other tasks from the "Quality of life" section of the roadmap.
 
 Our plans are dynamic, and we are always open to suggestions and improvements. React to tasks you like:
 
