@@ -1,7 +1,7 @@
 ---
 title = "February 2026 in Feeds Fun"
 tags = ["monthly-recap", "news"]
-published_at = "2026-02-04T12:00:00+00:00"
+published_at = "2026-03-04T12:00:00+00:00"
 seo_description = "Check out what happened in Feeds Fun in February 2026."
 seo_image = "./cover.jpg"
 ---
@@ -13,7 +13,7 @@ alt = "Blog post cover image."
 
 Hey everyone! This is a monthly recap of Feeds Fun.
 
-- We made 4 releases. Numerous stability improvements and bug fixes were introduced.
+- We made 1 release with user experience improvements.
 - 3.9M news entries were loaded, 30 new users registered.
 
 <!-- more -->
