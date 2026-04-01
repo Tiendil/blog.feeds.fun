@@ -55,7 +55,7 @@ Our plans are dynamic, and we are always open to suggestions and improvements. R
 - **Comment** to help us better understand your needs.
 - **Create a feature request** if we missed something important for you.
 
-## Fun stats for February 2026
+## Fun stats for March 2026
 
 - `5.2M` news entries were loaded.
 - `32` new users registered.
