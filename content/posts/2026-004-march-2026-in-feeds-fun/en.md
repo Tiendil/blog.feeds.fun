@@ -1,3 +1,4 @@
+---
 title = "March 2026 in Feeds Fun"
 tags = ["monthly-recap", "news"]
 published_at = "2026-04-01T12:00:00+00:00"
@@ -23,7 +24,7 @@ The most noticeable change for both [feeds.fun](https://feeds.fun) users and sel
 
 The previous policy limited the maximum number of news entries per feed to 10000, which worked well for a long time, but, in the long run, it led to uncontrollable growth in database size and performance degradation.
 
-The new policy keeps the 10000 news restriction, but also limits the age of news entries to 30 days. Since Feeds Fun is designed to be a tool for news discovery, a month looks like a reasonable time frame. This way, we can ensure that the database size remains manageable and the performance remains optimal. We also introduced a lower limit of 100 news entries per feed that cannot be removed by the deprecation policy — this should help keep low-traffic feeds manageable.
+The new policy keeps the 10000 news restriction, but also limits the age of news entries to 30 days. Since Feeds Fun is designed to be a tool for news discovery, a month looks like a reasonable time frame: if something is older than a month, it is not such big news already :-D This way, we can ensure that the database size remains manageable and the performance remains optimal. We also introduced a lower limit of 100 news entries per feed that cannot be removed by the deprecation policy — this should help keep low-traffic feeds manageable.
 
 All these parameters can be configured in the self-hosted version — check [CHANGELOG.md](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md) for the details.
 
