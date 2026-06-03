@@ -13,47 +13,31 @@ alt = "Blog post cover image."
 
 Hey everyone! This is a monthly recap of Feeds Fun.
 
-- We made 2 releases with improved support of popular news sources (YouTube, Reddit, GitHub, ArXiv, Hacker News) and better estimation of spending for those who set up API keys.
-- 2.5M news entries were loaded, 31 new users registered.
+- We made 4 releases, improving broken feed parsing, Reddit posts parsing, and internal tagging logic.
+- Per-feed `entries/day` statistics introduced to better understand feed activity.
+- 2.5M news entries were loaded, 21 new users registered.
 
 <!-- more -->
 
 ## Updates
 
-We introduced an integration plugin system to customize Feeds Fun's behavior for particular news sources.
-
-From the box, Feeds Fun now provides better support for YouTube, Reddit, GitHub, ArXiv, and Hacker News. We'll continue adding new integrations; self-hosted users can add their own by following the documentation in the repository.
-
-Thanks to the plugin system, Feeds Fun began to:
-
-- correctly discover news feeds for the mentioned sources;
-- better display news entries from those sources.
-
 **What improved for users of [feeds.fun](https://feeds.fun)**:
 
-- On the top of the opened news body, you can find a list of resources and entities it mentions: from the link to the authors' page to the comments, linked videos, and images.
-- If an image or YouTube video is attached to the news entry, it will be displayed on top of the news body.
-- YouTube videos inlined in the news body are now displayed as playable videos instead of empty spaces.
-- API usage now takes into account failed requests (e.g., due to quota limits, access issues, etc.) and assumes their cost as zero. That should reduce cases of rapid, fake spending growth caused by failed requests.
+- In the `Feeds` view you can find a new column with an average news/day metric for each feed. If you click on a feed, you'll find a detailed 30-day feed activity chart in the feed details.
+- In the feed details on the `Feeds` view, you can now found both urls: the feed URL and the website URL of the feed source.
+- When parsing feeds, entries with malformed external URLs now do not cause the whole feed parsing to fail.
+- Improved parsing and visualization of a special case of `video+text` Reddit posts.
 
 **What improved for self-hosted users**:
 
-- You can configure a list of integration plugins and implement your own plugins to customize Feeds Fun's behavior for particular news sources. Check [README](https://github.com/Tiendil/feeds.fun#configure-integrations-with-new-sources) for the details.
-- Improved HTML cleaning for LLM needs, now it removes all semantically meaningless attributes such as `class`, `id`, `style`, etc. That should lead to fewer tokens spent.
+- We refactored how tag processor get entries to process: from going over all entries to queue-based dispatching.
+- As a result, we partially changed the configuration of tag processors. Now it should be more clear and agile. Check [changelog](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md) for `1.27.0` version for instrouctions on how to update your custom `tag_processors.toml` configs.
 
 ## Roadmap
 
 Do not forget about our [long-term development plans](https://github.com/users/Tiendil/projects/1/views/1?pane=info).
 
-We finished the task [Specialized display of news from major content providers](https://github.com/Tiendil/feeds.fun/issues/351).
-
-New tasks were added to the Roadmap:
-
-- [Tag processor to create a tag for each news author ](https://github.com/Tiendil/feeds.fun/issues/511)
-- [Random news sorting](https://github.com/Tiendil/feeds.fun/issues/513)
-- [Tag processor for integration-specific tags](https://github.com/Tiendil/feeds.fun/issues/512)
-- [Transform relative URLs in the body of the news to absolute URLs](https://github.com/Tiendil/feeds.fun/issues/515)
-- [Purify the entry title and body on the server side](https://github.com/Tiendil/feeds.fun/issues/514)
+We finished the task [Add information about the intensity of the news flow for each feed](https://github.com/Tiendil/feeds.fun/issues/225).
 
 We continue working on other tasks from the "Quality of life" section of the roadmap.
 
@@ -66,8 +50,8 @@ Our plans are dynamic, and we are always open to suggestions and improvements. R
 ## Fun stats for May 2026
 
 - `2.5M` news entries were loaded.
-- `31` new users registered.
-- `~13.8 minutes/month` spent reading news by an average active user.
+- `21` new users registered.
+- `~13.9 minutes/month` spent reading news by an average active user.
 
 ## Stay Connected
 
