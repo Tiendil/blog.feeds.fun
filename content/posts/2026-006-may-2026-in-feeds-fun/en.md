@@ -14,8 +14,8 @@ alt = "Blog post cover image."
 Hey everyone! This is a monthly recap of Feeds Fun.
 
 - We made 4 releases, improving broken feed parsing, Reddit posts parsing, and internal tagging logic.
-- Per-feed `entries/day` statistics introduced to better understand feed activity.
-- 2.5M news entries were loaded, 21 new users registered.
+- Per-feed `entries/day` statistics were introduced to better understand feed activity.
+- 2.5M news entries were loaded, and 21 new users registered.
 
 <!-- more -->
 
@@ -23,15 +23,15 @@ Hey everyone! This is a monthly recap of Feeds Fun.
 
 **What improved for users of [feeds.fun](https://feeds.fun)**:
 
-- In the `Feeds` view you can find a new column with an average news/day metric for each feed. If you click on a feed, you'll find a detailed 30-day feed activity chart in the feed details.
-- In the feed details on the `Feeds` view, you can now found both urls: the feed URL and the website URL of the feed source.
-- When parsing feeds, entries with malformed external URLs now do not cause the whole feed parsing to fail.
+- In the `Feeds` view, you can find a new column with an average `news/day` metric for each feed. If you click on a feed, a details panel will appear where you can find a 30-day feed activity chart.
+- In the feed details on the `Feeds` view, you can now find both URLs: the feed URL and the website URL of the feed source.
+- Entries with malformed external URLs no longer cause the whole feed parsing to fail. In that case, you'll still see all correctly parsed entries.
 - Improved parsing and visualization of a special case of `video+text` Reddit posts.
 
 **What improved for self-hosted users**:
 
-- We refactored how tag processor get entries to process: from going over all entries to queue-based dispatching.
-- As a result, we partially changed the configuration of tag processors. Now it should be more clear and agile. Check [changelog](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md) for `1.27.0` version for instrouctions on how to update your custom `tag_processors.toml` configs.
+- We refactored how tag processors get entries to process: from going over all entries to queue-based dispatching.
+- As a result, we partially changed the configuration of tag processors. Now it should be clearer and more agile. Check [changelog](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md) for the `1.27.0` version for instructions on how to update your custom `tag_processors.toml` configs.
 
 ## Roadmap
 
