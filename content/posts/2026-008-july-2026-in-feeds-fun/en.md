@@ -1,7 +1,7 @@
 ---
 title = "July 2026 in Feeds Fun"
 tags = ["monthly-recap", "news"]
-published_at = "2026-07-08T12:00:00+00:00"
+published_at = "2026-08-04T12:00:00+00:00"
 seo_description = "Check out what happened in Feeds Fun in July 2026."
 seo_image = "./cover.jpg"
 ---
