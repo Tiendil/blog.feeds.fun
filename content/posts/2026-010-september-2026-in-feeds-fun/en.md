@@ -14,7 +14,7 @@ alt = "Blog post cover image."
 Hey everyone! This is a monthly recap of Feeds Fun.
 
 - We made 1 release with an improved feeds discovery tab; "undo" and "add feed" buttons placed in the toolbar.
-- 2.7M news entries were loaded, and 12 new users registered.
+- 2.7M news entries were loaded, and 28 new users registered.
 
 <!-- more -->
 
